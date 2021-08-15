@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+message SearchRequest {
+  string url = 1;
+  repeated string proxies = 2;
+}
+
+message ResponseItem {
+  string title = 1;
+  string desc = 2;
+  string url = 3;
+  string price = 4;
+  string rating = 5;
+  string query = 6;
+}
+
+message SearchResponseStream {
+  string query = 1;
+  repeated ResponseItem result = 2;
+}
+
+
+service SearchService {
+  rpc Search(stream SearchRequest) returns (stream SearchResponseStream);
+}

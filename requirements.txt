@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+requests_html
+aiohttp
+asyncio
+PySocks

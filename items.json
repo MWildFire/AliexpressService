@@ -1,0 +1,105 @@
+{
+    "resultCount": 0,
+    "refineOrder": [
+        "refineCategory",
+        "refineBrand",
+        "refineAttribute"
+    ],
+    "refinePrice": {},
+    "refineFeatureSwitch": [
+        {
+            "switchType": "free_shipping_switch",
+            "switchTag": {
+                "displayTagType": "text",
+                "tagText": "Бесплатная доставка"
+            },
+            "selected": false
+        },
+        {
+            "switchType": "user_favorite_switch",
+            "switchTag": {
+                "tagImgWidth": 64,
+                "tagImgHeight": 12,
+                "displayTagType": "image_text",
+                "tagText": "или более",
+                "tagImgUrl": "//ae01.alicdn.com/kf/HTB1W4orR7voK1RjSZFw763iCFXal.png"
+            },
+            "selected": false
+        }
+    ],
+    "translateResult": {
+        "recognizedLanguage": "ru",
+        "keywords": "чехол для iphone",
+        "success": "true",
+        "translateText": "Iphone case"
+    },
+    "exposureParams": {
+        "i18n_language": "чехол для iphone",
+        "localKeyword": "чехол для iphone",
+        "sale_items": "f",
+        "category_id": "0",
+        "isTranslated": "true",
+        "deliver": "all",
+        "attribute": "",
+        "sort_by": "default",
+        "keyword": "чехол для iphone",
+        "enKeyword": "Iphone case",
+        "ship_to": "EU",
+        "top_rate_tab": "f"
+    },
+    "abtest": {
+        "searchProductListPageSize40": false,
+        "searchProductListPageSize50": false,
+        "vehicleUIFromVersion3A": true,
+        "affiliateToMainSearch": false,
+        "vehicleUIFromVersion3B": false,
+        "searchProductListPageSize60": false
+    },
+    "premium": false,
+    "success": true,
+    "breadCrumb": {
+        "resultText": "результатов",
+        "resultCount": "0",
+        "keywords": "чехол для iphone",
+        "links": [
+            {
+                "text": "Все Kатегории",
+                "url": "//aliexpress.ru/all-wholesale-products.html"
+            }
+        ]
+    },
+    "resultSizePerPage": 60,
+    "translateStatData": {
+        "aeIsmember": "",
+        "aeClickBehavior": "",
+        "aeObjectValue": "16",
+        "aePageType": "ggtra_c",
+        "aeButtonType": "success",
+        "aeProjectId": "15203",
+        "aeUserId": "",
+        "aeObjectType": "tr_b=чехол для iphone||tr_f=Iphone case||return_code=success",
+        "aePageArea": "lang_r=||lang_f=ru"
+    },
+    "p4pObjectConfig": {
+        "bcfg": {
+            "currencyType": "RUB",
+            "offset": 0,
+            "p4pId": "b7b8702e-d631-4f3b-810b-43fdbfe726ac",
+            "urlPrefix": "//hz.cobra.aliexpress.com/p4pforlist.html",
+            "mt": "e",
+            "ip": "45.140.19.26",
+            "categoryBrowse": "0",
+            "dl": "r",
+            "translatedLang": "ru",
+            "count": 5,
+            "pid": "806_0004_0107",
+            "language": "ru",
+            "site": "rus",
+            "pageType": "main_search_keyword",
+            "pageIndex": 1,
+            "keyword": "Iphone case"
+        }
+    },
+    "refineCategory": [],
+    "resultType": "zero_result"
+}

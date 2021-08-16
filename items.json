@@ -1,5 +1,6 @@
 {
-    "resultCount": 0,
+    "resultCount": 11965,
+    "topCategoryId": "202004360",
     "refineOrder": [
         "refineCategory",
         "refineBrand",
@@ -7,6 +8,16 @@
     ],
     "refinePrice": {},
     "refineFeatureSwitch": [
+        {
+            "switchType": "tmall_tag_switch",
+            "switchTag": {
+                "tagImgWidth": 120,
+                "tagImgHeight": 48,
+                "displayTagType": "image",
+                "tagImgUrl": "//ae01.alicdn.com/kf/HTB1JXCMdv2H8KJjy0Fc761DlFXar.png"
+            },
+            "selected": false
+        },
         {
             "switchType": "free_shipping_switch",
             "switchTag": {
@@ -28,39 +39,93 @@
         }
     ],
     "translateResult": {
-        "recognizedLanguage": "ru",
-        "keywords": "чехол для iphone",
+        "recognizedLanguage": "en",
+        "keywords": "ipad pro",
         "success": "true",
-        "translateText": "Iphone case"
+        "translateText": "ipad pro"
     },
+    "leafCategoryIds": "202004360,202060516,202004582,202005338",
     "exposureParams": {
-        "i18n_language": "чехол для iphone",
-        "localKeyword": "чехол для iphone",
-        "sale_items": "f",
-        "category_id": "0",
+        "localKeyword": "ipad pro",
         "isTranslated": "true",
         "deliver": "all",
-        "attribute": "",
         "sort_by": "default",
-        "keyword": "чехол для iphone",
-        "enKeyword": "Iphone case",
-        "ship_to": "EU",
+        "enKeyword": "ipad pro",
+        "i18n_language": "ipad pro",
+        "sale_items": "f",
+        "view": "list",
+        "category_id": "0",
+        "top_cate": "202004360",
+        "attribute": "",
+        "keyword": "ipad pro",
+        "ship_to": "RU",
         "top_rate_tab": "f"
     },
+    "displayStyle": "list",
     "abtest": {
         "searchProductListPageSize40": false,
         "searchProductListPageSize50": false,
-        "vehicleUIFromVersion3A": true,
+        "vehicleUIFromVersion3A": false,
         "affiliateToMainSearch": false,
         "vehicleUIFromVersion3B": false,
         "searchProductListPageSize60": false
     },
     "premium": false,
+    "refineBrand": {
+        "attributeId": 2,
+        "attributeValuesSupportMultiSelect": false,
+        "attributeValuesDisplayStyle": "two_column",
+        "attributeName": "Бренды",
+        "brandAttributeValues": [
+            {
+                "imagePath": "//ae04.alicdn.com/kf/HTB1pl4kXsnrK1RjSspkq6yuvXXaY.jpg_Q50.jpg",
+                "brandId": 100012872,
+                "name": "Lenovo",
+                "brandValueIds": "100012872"
+            },
+            {
+                "imagePath": "//ae04.alicdn.com/kf/HTB1chL9NXXXXXXkXVXX760XFXXXe.png",
+                "brandId": 200003854,
+                "name": "Huawei",
+                "brandValueIds": "200003854"
+            },
+            {
+                "imagePath": "//ae04.alicdn.com/kf/H70233541d6d6498a828025c9dca7808bi.jpg_Q50.jpg",
+                "brandId": 200658765,
+                "name": "Xiaomi",
+                "brandValueIds": "203223816,200005305,202591993,200658765,3518749531,202928862,200020411,202674832,202013868"
+            },
+            {
+                "imagePath": "//ae04.alicdn.com/kf/HTB1gTd_KVXXXXbhapXXq6xXFXXXo.jpg_Q50.jpg",
+                "brandId": 3426,
+                "name": "APPLE",
+                "brandValueIds": "3426,4535758"
+            },
+            {
+                "imagePath": "//ae04.alicdn.com/kf/Ha9fbaa51dba64ac1a64569d0ead1de49Y.jpeg_Q50.jpeg",
+                "brandId": 100007876,
+                "name": "Samsung",
+                "brandValueIds": "100007876,200022286,53758157,7470"
+            },
+            {
+                "imagePath": "//ae04.alicdn.com/kf/HTB1emirQFXXXXc3XXXX760XFXXXW.png",
+                "brandId": 200018769,
+                "name": "Jumper",
+                "brandValueIds": "200018769"
+            },
+            {
+                "imagePath": "//ae04.alicdn.com/kf/HTB1hjPhXRGw3KVjSZFDq6xWEpXay.jpg_Q50.jpg",
+                "brandId": 200005271,
+                "name": "Pipo",
+                "brandValueIds": "200005271"
+            }
+        ]
+    },
     "success": true,
     "breadCrumb": {
         "resultText": "результатов",
-        "resultCount": "0",
-        "keywords": "чехол для iphone",
+        "resultCount": "11965",
+        "keywords": "ipad pro",
         "links": [
             {
                 "text": "Все Kатегории",
@@ -69,37 +134,2068 @@
         ]
     },
     "resultSizePerPage": 60,
+    "refineShipFromCountries": [
+        {
+            "countryCode": "RU",
+            "countryName": "Russian Federation",
+            "selected": false
+        },
+        {
+            "countryCode": "TR",
+            "countryName": "Turkey",
+            "selected": false
+        },
+        {
+            "countryCode": "CN",
+            "countryName": "China",
+            "selected": false
+        }
+    ],
+    "sortBy": [
+        {
+            "sortByName": "default",
+            "supportedOrders": [
+                "default"
+            ],
+            "selectedOrder": "default",
+            "selected": true
+        },
+        {
+            "sortByName": "orders",
+            "supportedOrders": [
+                "desc"
+            ],
+            "selectedOrder": "default",
+            "selected": false
+        },
+        {
+            "sortByName": "newest",
+            "supportedOrders": [
+                "desc"
+            ],
+            "selectedOrder": "default",
+            "selected": false
+        },
+        {
+            "sortByName": "price",
+            "supportedOrders": [
+                "desc",
+                "asc"
+            ],
+            "selectedOrder": "default",
+            "selected": false
+        }
+    ],
     "translateStatData": {
         "aeIsmember": "",
         "aeClickBehavior": "",
-        "aeObjectValue": "16",
+        "aeObjectValue": "8",
         "aePageType": "ggtra_c",
         "aeButtonType": "success",
         "aeProjectId": "15203",
         "aeUserId": "",
-        "aeObjectType": "tr_b=чехол для iphone||tr_f=Iphone case||return_code=success",
-        "aePageArea": "lang_r=||lang_f=ru"
+        "aeObjectType": "tr_b=ipad pro||tr_f=ipad pro||return_code=success",
+        "aePageArea": "lang_r=||lang_f=en"
     },
     "p4pObjectConfig": {
         "bcfg": {
             "currencyType": "RUB",
             "offset": 0,
-            "p4pId": "b7b8702e-d631-4f3b-810b-43fdbfe726ac",
+            "p4pId": "8ace27d8-17dd-46ac-ac7e-60d373142609",
             "urlPrefix": "//hz.cobra.aliexpress.com/p4pforlist.html",
             "mt": "e",
-            "ip": "45.140.19.26",
+            "ip": "109.252.72.245",
             "categoryBrowse": "0",
+            "dcatid": "202004360,202060516,202004582,202005338",
             "dl": "r",
             "translatedLang": "ru",
             "count": 5,
-            "pid": "806_0004_0107",
+            "pid": "807_0004_0107",
             "language": "ru",
             "site": "rus",
-            "pageType": "main_search_keyword",
+            "pageType": "affiliate_keyword",
             "pageIndex": 1,
-            "keyword": "Iphone case"
+            "keyword": "ipad pro"
+        },
+        "p4pIdEurlMap": {
+            "1005003069536071": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=o.plwVvLO6cXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGz6Xuan3kjA.JeQ.QMLfwIGuxeyFzIA8vLSRQFc1QoZSizS.Yo6QnQI1F-xxdDxd8rnVr7E35Qq1pD7-Bs1QdeplTcvTsw3.j7G60YTS5IvqGCAHN3GdCVevafvcYAcPTCEdpIAEqrT3gw3t08fRbomEE1Yv546f0xVOB6MWsf8YhIhQMHEUZZ93n4bfnZKw-.KPYciVmI47l7karfbjEE3KEjzgyvd2TftdXs0Qg25GSxnUzA1a1DH-8qnfhYjw0s1cBlwS67190b5oNvKLY0raJpcsWE-xHVAq7mUGElJ7v8AxgTmNY500ZXniqMseFlHUK8H7E7awhO2uuf.hwdfbE-nE.jd0jBKpr4m-lP93byVgvtEEu-peMBC6qlDjwFjTKttEsTbPxERTI-hbUcgLaNH0kGmzGsRofddg.FxFEYbHBZOvvCuOzJbDsg5Ys4sg.Hj0cLZVXCksv-oXfwUaZfPrhqjhObZItTXF3V6vch1uumtnFvFWJ1oYsLFGNfYH-9Jq9zu0VocHd-wk.4wwtI.ErVVgbRu122ap9oFp-VrJO5MpaZt7c2pT8N.95z2lL5qybNcxDwJlNNFNfCG&ap=1&rp=1",
+            "1005003107631170": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=1EUILI6MHmQXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGxlCF8YS8WwJSjnj3utfidWVN-WI7joeMXUhZF8dr5pv5W0K2s0y4C01SD8TTsGaQ-WUdLBmsL-BCaXD36Gidmax4Cu6oCvZilg8fyVk3lGwyNnsuxEluUxZJXfRCuB89RtS6m.JUWCD2lQAdXZYaw4uo5Cc3pOsTZxTBoqKd9AL-pfrj7QXXHtc8xhc5ZkZGtxIhUB3opWaWY89nS1NvkO0P4XeBRCG.FwKG-6-iDENV-NklKHquGEp7FcRB5.4voXiCY4ZbB0HqnONNLz-ZL61LNIF-qT99zMboWLdrnGaKbKqHuiC2xytQDdkfhLPXhsYGjhZiZd3xRKC7xKxBalwgZp4oi-U9nfFYXCwHUCKYSqJmsw1nYVuMhQxBPjOfYM.gB5WnKjPMfNQkZifqIDhVfcgpWD4IPW0sM-maGTxiOHcvYSCBBJVUFM67TCfKimf5u65Ke3w3bnI1Kjes4XxnWLf1UH264.0XZf-hczVhtVDW9Ej9JtE1iGwpL2RC5Acbcjy.uqqu1HxonG.GcoY0Du9.QhSSX3cMAMSB56kGCpUqZF8Bf6StIKuSKsmt-23PQfduy8ht75cJAVbCDg7yTe1GQBy3-l6P1lgqsVcA__&ap=7&rp=7",
+            "1005003122912609": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=m9LBuiHtlDgXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGww-eCaU5rU3Wlyz2zNYZrMicvaX0U7TIJzJ.icnYJlxCzS.Yo6QnQI1F-xxdDxd8rnVr7E35Qq1pD7-Bs1QdeplTcvTsw3.j6LePJilqZakSxw3ASvwAvAvafvcYAcPTBigneKCD6oHjB64ylolFlhqX4xWN3GhCtbVOKuwB6Vt8lpBQOPhOKKGlnqPnzDDhC6nJUlp0V638o9hyJWYjjuXuRqt9uMQTcoSPODK93ZN-11ezRCDbkZLGdTMDVrUMf7yqd-FiPDSzVwGXBLrvX3Rvmg28otjStomlyxYT7EdUCruZQYSUnu.wDGBOY1jnTRleeKoyx4WUdQrwfsTtrCE7a65.-HB1.WLkXs-bLcMUqmvib6U.3dzsQ2F1QM5B4Ii0h9e2TNCwm6Q6yTuh.d1nGtI1C6yb6QlpUu2DtL9t6hih-vhNCkUPEPERryU3Yc27fVyGPj-nEKuz8u-t.Z-JKoVQDK.ucZIEzzARRp.OscSQNRWBcSUGQd-ogdTvCdl58aSkUxj.2inS4aa78ZvtK4qXOocn61PVqGMwQW1cKlDasqz.ZVM02g5COUmCLxKIJ80cH0aMz.WkpaGXRUpTc9hm4I4ZVJoqIBxgCAjQ__&ap=4&rp=4",
+            "1005002271795734": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=FDh-HsNXN.cXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGyp9o9eyfC0HxcyTsFcvJR--m4GVm75GfLUhZF8dr5pv5W0K2s0y4C01SD8TTsGaQ-WUdLBmsL-BCaXD36Gidmax4Cu6oCvZilHtjIJp-OWWwhxYyGXK3GrfWtQEeP3BncfCQ.gnQpmBdSmks52NmaSO3n8XzaJPL6AAuLs0RST6jvjlL1cJH-9i4MRBiXs9qFmPPZ0tTb5DtD-F3gUQhvxcChvuvogxDVfjZJSh6rhhKexXEQef-L6F4gmOGWwdB6pzjTS8.mS-tSzSBfqk.fczG6Fi3a5xmimyqh7ogtscrUA3ZH4Sz14bGBo4WYmXd8USgu8SsQWpcIGaeKIvlPZ3xWFwsB1AileQDLKm0yWcWxaQwxi5A43bNZxhBvK0VqXKM7Y5xMjCchs4ignEruanGR5G-85oB2AyTPQi85lhc2tdCaiTU3Rnp82s59YgZ8UUcj18oBGsbsTVhN.E.vNWgMkwEgwtEqUL38-OeqzDQIVwuR3jZvZB0WxrbQO-neodXzbwL6FkM4m1G-saXihwxg5WcpTvqtAZY.44sQxzTjSuylPmREzrX7dJ.WKoFPrCMO0Aa-Z-Q__&ap=2&rp=2",
+            "1005002239631999": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=Xwl7Af.G2U4XGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGyLAE1CYkeBEB.x74uu158eJ.CUuS46UGEbJAz24C1r-5kcybI0H4rj5y4zTPsaQUNDFUCv7YxpqucFBseYOgXbLpU11sJdrCt-ETV4Yw7Ep7tOErNNgpvyy8-rvfY7LBfUMA6g1.hyHeqBcLxHFkMXvhPcjwk8ZSdVCRdNvZaMTQrBeJYf5kWJpeGibbpEaRgq1BfCdeloEyNvNl-S9eaG3JWSi7iTRf2YGIE9ICYaCiDtJUxVZpbXY0YSkwUHdqg0uaVJYoDUd10oDXg3Y4UdCNF66MwlngYGfKL5Xh2K892egp.9x20sudny4gKZ8OopOIZIoB.oq26k8c8QN3h6xVJRs3VWPusEwF1iJ1kjHhjta0swNg9nwpm706PxdBaNOiXDBssXiCt-EYHRLgypLGf8w.MrVxypkU2ZLSe9Rm8pkvpkzg5SEl36bKqLZXVbq8I0dlnXKHdiquz4Qz0.NpIHibXIyVEgmam5AwrhjMA2TAA50WGleIE3yHJ5p79iJGnTA8.6GAOuDwyZdJLXGzHR6QB1XvSKH0ImVbXYDKFiTHXFgCW8HLZC4oB6KRdfr.asImZyJg__&ap=8&rp=8",
+            "4001184131520": "//us-click.aliexpress.com/ci_bb?ot=local&a=1629970156&e=VcnprzQHxggncZvmbDMlK-HbB7xFVVU64u8QG3iDIidqV-n5sjgerFf.rBJcj2JAqZ5lTkNcTYTKRJ3PCyMmgnpMAzEvAzVWaXgsHfsRo-tTjfOIzHzPqVH6mc0FXhtSPZqhX9PbSw1tYOX6qfnezqpDUVE4qd1.p81skTNwPRzGrArck2fkO1p2JuFlHUKBBL39el2UvEG-qia.DHohceFReYTmM.-y.BgT2ub9a6IYdDQVhMm6YRnN.0w5l1amtpfBcuFycN.L2R4hh9hrPp3O4cbuX7CTbZQZADE88QPDzLKZ66KeimkPts-F7eDX-ZlgV4EPPLcYr.y0vGGTPRi4A1b.FvmWIGddFcyPWr56Dzdndz-ZBxf6Ze1K23AYHJfiB1kBfunFcI9m5DiiB61l3vJyh6HMXS2Dz.tQbafoEs.HeQZJDVMe2ygR.9OjNvxjZEGpocoF9WD9g6NcAOGI6texm2FsnV2DtDQDVo4VPEh6.ayLUZyUPKBrvEo3vi5dJaAyl1TKJS3V1UIgTLyNK6P30AQcz5WSxCjiPJkcaJXBhawNzawtdDXpCP5Qe3SBGBE.rLdn2EaE4geTshGfIMWwBBrVfhLkK1IfuAedOuvZe1PqaRQSC3ASUeuyxr-0KDRObxRkoEFpM-AM3Q9zfRpjnopw&ap=3&rp=3",
+            "1005002352742111": "//us-click.aliexpress.com/ci_bb?ot=local&a=1629970156&e=0ykXOQKeoXcncZvmbDMlK-HbB7xFVVU64u8QG3iDIidqV-n5sjgerFf.rBJcj2JAqZ5lTkNcTYRhcQMdAUrilNEkJYLVcPOwUr67jCcL.HmwiVv5VA0rdHVvpOJO.PaO2-Lhik4VBD7SnjC1xDVmksOr--Oz1NvjUAcwFLxcBGwL.IfATNWwNSuTOhp4jg3QrKWLpA9WQ1.CeBcarf3dh0RtqmG2PyQRZ4XUJ-GNyg4ESe-zLeJQCrG82OH7dBzDNtml.QeDbfELssE-YpaoHDrjwJCHBedi2Oo-Y7s28jDAVZeY0dl8Ol9mO1f4s2yDoy8K5OB3dTmN1Y.p-eZLepi8nZyU8jP0XR8r1JGuw.0v83cO4CltjyUZM-1eop5biPBl513XOsLoEfuBmnMEAbtAiSgg6hQdLD16uyrm1vDO0dqRBa4wGMhLqt4tcaFTkFN5hN6fO9h3YDxniPg2FPkZFL8CSgP2Q00wtErGhYSmGfBrleJgNd9X3VnDB.ChQrOJLHd2umJuXOlgagz9l8XGW7pGv5OKe8hlnjrRlfFd4tKS0vyYTLyNK6P30AQcz5WSxCjiPJkcaJXBhawNzawtdDXpCP5QG8B6Tt6EPS7ZcIWpOZrJ1J20dnw6xjHkh.t4NFy134Ym5Z65ckpVnpxWSLibowFAqsFvycyj1Q4jWBDsTDsiWKtyGqPUVORU&ap=2&rp=2",
+            "1005001463427505": "//us-click.aliexpress.com/ci_bb?ot=local&a=1629970156&e=6h5k1PIneF4ncZvmbDMlK-HbB7xFVVU64u8QG3iDIidqV-n5sjgerFf.rBJcj2JAqZ5lTkNcTYShuRJi6BjCz.i9FUnV9gM7SIC87Zql7Att90hVkRqV8XVvpOJO.PaO2-Lhik4VBD7SnjC1xDVmksOr--Oz1NvjUAcwFLxcBGyLzr6pBeU24M4zCavjsGt.rKWLpA9WQ19NrEkhMBT-1jhA16S3SbQc7B8QL5Z2m5.eVThrGabXOwmmq3Nfw.UsxQvTm.JZW0KXwPR3wQKN8M71ar3hG0n3Dp7Dyel2RCqaIms6G46l09JyqUGfN6I5J69nW2X8cSRDtFMu.oF8FhAUphQ2aCpQoTYjbOdrc5TmB1CQwOjNhgrg7rJEnjfMj.LQCZ0UkpGaCw7ubxF8z9rtuCSGmEPOKKHg5HAewptlylRxrDxxTKYsZy9NmFmqoFMyC0DC0A69lbxXxbzRsRzWWeQ7ck-hyB3LnC5JfEoirm8WkLmiyOnzw.4c7IsZxEO8cx7CJCNw7daoXdpF.siTEieXRlgvk4xgK7EPuDEnd8hiHcM8WtjNJ63ImOIgTRMgfwEkAAD6L44iaa-YIozJBGxULJIfCIORL2GxRHO9Dgv3pFR8.zr-9RN0PKO.Sot46B.Q8SPPzrIiv0TZQtgGT2X4xGFFSybCI.EOrps_&ap=1&rp=1",
+            "1005001527575202": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=KgHhi1P3XuIXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGyRDwXS4YxDIWuP947I5B5EK2YlIllZSkGLTbvi0U2ceizS.Yo6QnQI1F-xxdDxd8rnVr7E35Qq1pD7-Bs1QdeplTcvTsw3.j5ma1aeYT5e8BoMDq6pCHJJpDaXKdY.sER9a1AR4.cGdyQxmx588DRUSszZe2PgAkpFI6NVSfsXjErlmhjeXkNEc8xhc5ZkZGtxIhUB3opWaWY89nS1NvkO0P4XeBRCG.FwKG-6-iDENV-NklKHquGEp7FcRB5.4voXiCY4ZbB0HqnONNLz-ZL61LNIF-qT99zMboWLdrnGaKbKqHuiC2xytQDdkfhLPXhsYGjhZiZd3xRKC7xKxBalwgZp4oi-U9nfFYXCwHUCKbM91K0RpEuuskPGz-HxCUFYCBnF6uY0c7qzGQZCi8X7hQf0a-BGQtni3teym5gQjf7cNN5zRKucRzuRTiE50C2enzazn1iBnxRRyPXygEaxuxNWE38T-81aAyTASDC0SpQvfz456rMNAhXC5HeNm9kq7il6ulZ6.nnzYXyE3pzBzibUb6xpeKHDGDlZylO-q0Blj.jixDHNONK7KU-ZETOtft0n9YqgU-sIw7QBr5n5&ap=3&rp=3"
         }
     },
-    "refineCategory": [],
-    "resultType": "zero_result"
+    "items": [
+        {
+            "imageWidth": 220,
+            "productId": 1005001463427505,
+            "feeDeductionLinkUrl": "//us-click.aliexpress.com/ci_bb?ot=local&a=1629970156&e=6h5k1PIneF4ncZvmbDMlK-HbB7xFVVU64u8QG3iDIidqV-n5sjgerFf.rBJcj2JAqZ5lTkNcTYShuRJi6BjCz.i9FUnV9gM7SIC87Zql7Att90hVkRqV8XVvpOJO.PaO2-Lhik4VBD7SnjC1xDVmksOr--Oz1NvjUAcwFLxcBGyLzr6pBeU24M4zCavjsGt.rKWLpA9WQ19NrEkhMBT-1jhA16S3SbQc7B8QL5Z2m5.eVThrGabXOwmmq3Nfw.UsxQvTm.JZW0KXwPR3wQKN8M71ar3hG0n3Dp7Dyel2RCqaIms6G46l09JyqUGfN6I5J69nW2X8cSRDtFMu.oF8FhAUphQ2aCpQoTYjbOdrc5TmB1CQwOjNhgrg7rJEnjfMj.LQCZ0UkpGaCw7ubxF8z9rtuCSGmEPOKKHg5HAewptlylRxrDxxTKYsZy9NmFmqoFMyC0DC0A69lbxXxbzRsRzWWeQ7ck-hyB3LnC5JfEoirm8WkLmiyOnzw.4c7IsZxEO8cx7CJCNw7daoXdpF.siTEieXRlgvk4xgK7EPuDEnd8hiHcM8WtjNJ63ImOIgTRMgfwEkAAD6L44iaa-YIozJBGxULJIfCIORL2GxRHO9Dgv3pFR8.zr-9RN0PKO.Sot46B.Q8SPPzrIiv0TZQtgGT2X4xGFFSybCI.EOrps_&ap=1&rp=1",
+            "saleMode": "single-piece_sale",
+            "adSessionId": "202108161553094531179953733200022629719",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/5624319",
+                "aliMemberId": 240320435,
+                "storeName": "Aisilun Store",
+                "storeId": 5624319
+            },
+            "title": "Подставка для планшета вращающийся длинная рука мобильный телефон держатель высота/регулируемый угол алюминиевый сплав Поддержка планшет...",
+            "tradeDesc": "380 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005001463427505.html?s=p&ad_pvid=202108161553094531179953733200022629719_1&algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-0&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "adTag": "Реклама",
+            "traceInfo": {
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001378",
+                "ownerMemberId": "cn1530163878wvzb",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-0"
+            },
+            "price": "1 732,40 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Uea20c89754584f40970be4f1085bdf495/Tablet-Stand-Rotating-Long-Arm-Mobile-Phone-Holder-Height-Angle-Adjustable-Aluminium-Alloy-Support-Tablet-Mount.jpg_220x220xz.jpg",
+            "starRating": "4.9",
+            "productType": "ad_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002352742111,
+            "feeDeductionLinkUrl": "//us-click.aliexpress.com/ci_bb?ot=local&a=1629970156&e=0ykXOQKeoXcncZvmbDMlK-HbB7xFVVU64u8QG3iDIidqV-n5sjgerFf.rBJcj2JAqZ5lTkNcTYRhcQMdAUrilNEkJYLVcPOwUr67jCcL.HmwiVv5VA0rdHVvpOJO.PaO2-Lhik4VBD7SnjC1xDVmksOr--Oz1NvjUAcwFLxcBGwL.IfATNWwNSuTOhp4jg3QrKWLpA9WQ1.CeBcarf3dh0RtqmG2PyQRZ4XUJ-GNyg4ESe-zLeJQCrG82OH7dBzDNtml.QeDbfELssE-YpaoHDrjwJCHBedi2Oo-Y7s28jDAVZeY0dl8Ol9mO1f4s2yDoy8K5OB3dTmN1Y.p-eZLepi8nZyU8jP0XR8r1JGuw.0v83cO4CltjyUZM-1eop5biPBl513XOsLoEfuBmnMEAbtAiSgg6hQdLD16uyrm1vDO0dqRBa4wGMhLqt4tcaFTkFN5hN6fO9h3YDxniPg2FPkZFL8CSgP2Q00wtErGhYSmGfBrleJgNd9X3VnDB.ChQrOJLHd2umJuXOlgagz9l8XGW7pGv5OKe8hlnjrRlfFd4tKS0vyYTLyNK6P30AQcz5WSxCjiPJkcaJXBhawNzawtdDXpCP5QG8B6Tt6EPS7ZcIWpOZrJ1J20dnw6xjHkh.t4NFy134Ym5Z65ckpVnpxWSLibowFAqsFvycyj1Q4jWBDsTDsiWKtyGqPUVORU&ap=2&rp=2",
+            "saleMode": "single-piece_sale",
+            "adSessionId": "202108161553094531179953733200022629719",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/3620089",
+                "aliMemberId": 232429568,
+                "storeName": "ESRGEAR Store",
+                "storeId": 3620089
+            },
+            "title": "Чехол ESR для iPad Pro 2021, чехол 11 12,9, Магнитный Тонкий чехол тройного сложения для iPad Pro 11 2021 2020, умный чехол для iPad Pro 12,9, чехол",
+            "tradeDesc": "1407 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005002352742111.html?s=p&ad_pvid=202108161553094531179953733200022629719_2&algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-1&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "adTag": "Реклама",
+            "traceInfo": {
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1522338511dmxd",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-1"
+            },
+            "price": "1 317,19 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Hbedf8e4eeb2b44449d9002d97a526140g/ESR-for-iPad-Pro-2021-Case-11-12-9-Magnetic-Slim-Trifold-Case-for-iPad-Pro.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "4.8",
+            "productType": "ad_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4001184131520,
+            "feeDeductionLinkUrl": "//us-click.aliexpress.com/ci_bb?ot=local&a=1629970156&e=VcnprzQHxggncZvmbDMlK-HbB7xFVVU64u8QG3iDIidqV-n5sjgerFf.rBJcj2JAqZ5lTkNcTYTKRJ3PCyMmgnpMAzEvAzVWaXgsHfsRo-tTjfOIzHzPqVH6mc0FXhtSPZqhX9PbSw1tYOX6qfnezqpDUVE4qd1.p81skTNwPRzGrArck2fkO1p2JuFlHUKBBL39el2UvEG-qia.DHohceFReYTmM.-y.BgT2ub9a6IYdDQVhMm6YRnN.0w5l1amtpfBcuFycN.L2R4hh9hrPp3O4cbuX7CTbZQZADE88QPDzLKZ66KeimkPts-F7eDX-ZlgV4EPPLcYr.y0vGGTPRi4A1b.FvmWIGddFcyPWr56Dzdndz-ZBxf6Ze1K23AYHJfiB1kBfunFcI9m5DiiB61l3vJyh6HMXS2Dz.tQbafoEs.HeQZJDVMe2ygR.9OjNvxjZEGpocoF9WD9g6NcAOGI6texm2FsnV2DtDQDVo4VPEh6.ayLUZyUPKBrvEo3vi5dJaAyl1TKJS3V1UIgTLyNK6P30AQcz5WSxCjiPJkcaJXBhawNzawtdDXpCP5Qe3SBGBE.rLdn2EaE4geTshGfIMWwBBrVfhLkK1IfuAedOuvZe1PqaRQSC3ASUeuyxr-0KDRObxRkoEFpM-AM3Q9zfRpjnopw&ap=3&rp=3",
+            "saleMode": "single-piece_sale",
+            "adSessionId": "202108161553094531179953733200022629719",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1261671",
+                "aliMemberId": 221208907,
+                "storeName": "GOOJODOQ Official Store",
+                "storeId": 1261671
+            },
+            "title": "Чехол для iPad 7th 8-го поколения с клавиатурой для iPad 10,2 чехол Pro 11 2021 Air 4 2020 10,9 Air 2 9,7 Air 3 Чехол Mouse Funda",
+            "tradeDesc": "4371 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4001184131520.html?s=p&ad_pvid=202108161553094531179953733200022629719_3&algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-2&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "adTag": "Реклама",
+            "traceInfo": {
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1511190498",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-2"
+            },
+            "price": "1 491,26 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H5ee6260428a44776a53d3b786fd91d29G/For-iPad-7th-8th-generation-Case-with-Keyboard-for-iPad-10-2-Case-Pro-11-2021.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ad_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4000935359363,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2792104",
+                "aliMemberId": 848667346,
+                "storeName": "Официальный магазин Tmall - Техника",
+                "storeId": 2792104
+            },
+            "title": "Планшет Apple iPad Pro 11\" (2020) WI-FI 512 ГБ Liquid Retina Display (MXDE2RU/A, MXDF2RU/A)",
+            "tradeDesc": "4 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "tags": {
+                "logistics_tag": {
+                    "tagImgWidth": 10,
+                    "tagImgHeight": 10,
+                    "tagText": "3-Day Delivery",
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hcf38c36b4eef40f09cb52444aaa17488P.png"
+                },
+                "tmall_tag": {
+                    "tagImgWidth": 120,
+                    "tagImgHeight": 48,
+                    "tagImgUrl": "//ae01.alicdn.com/kf/HTB1JXCMdv2H8KJjy0Fc761DlFXar.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4000935359363.html?algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-3&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1229252639pgju",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-3"
+            },
+            "price": "89 230,80 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H3a2c427180664b03b8a56d4b6910c6e7t/Tablet-Apple-iPad-Pro-11-2020-WI-FI-512-GB-liquid-retina-display-MXDE2RU-A-MXDF2RU.jpeg_220x220xz.jpeg",
+            "starRating": "5.0",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002948167247,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2792104",
+                "aliMemberId": 848667346,
+                "storeName": "Официальный магазин Tmall - Техника",
+                "storeId": 2792104
+            },
+            "title": "Планшет Apple iPad Pro (2021) 11\" Wi-Fi 256 ГБ (MHQU3RU/A, MHQV3RU/A)",
+            "tradeDesc": "60 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "tags": {
+                "logistics_tag": {
+                    "tagImgWidth": 10,
+                    "tagImgHeight": 10,
+                    "tagText": "3-Day Delivery",
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hcf38c36b4eef40f09cb52444aaa17488P.png"
+                },
+                "tmall_tag": {
+                    "tagImgWidth": 120,
+                    "tagImgHeight": 48,
+                    "tagImgUrl": "//ae01.alicdn.com/kf/HTB1JXCMdv2H8KJjy0Fc761DlFXar.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/1005002948167247.html?algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-4&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1229252639pgju",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-4"
+            },
+            "price": "76 551,20 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Hceed95cec0e44814b38d2829d87b754ah/Tablet-Apple-iPad-Pro-2021-11-Wi-Fi-256-GB-mhqu3ru-A-mhqv3ru-A-.jpeg_220x220xz.jpeg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002948027408,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2792104",
+                "aliMemberId": 848667346,
+                "storeName": "Официальный магазин Tmall - Техника",
+                "storeId": 2792104
+            },
+            "title": "Tablet PC Apple iPad Pro 2021 MHW63RU/A M1 8C/8Gb/128Gb 11\" IPS 2388x1668/3G/4G/iOS/silver/BT/GPS/12",
+            "tradeDesc": "1 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "tags": {
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                },
+                "logistics_tag": {
+                    "tagImgWidth": 10,
+                    "tagImgHeight": 10,
+                    "tagText": "3-Day Delivery",
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hcf38c36b4eef40f09cb52444aaa17488P.png"
+                },
+                "tmall_tag": {
+                    "tagImgWidth": 120,
+                    "tagImgHeight": 48,
+                    "tagImgUrl": "//ae01.alicdn.com/kf/HTB1JXCMdv2H8KJjy0Fc761DlFXar.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/1005002948027408.html?algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-5&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1229252639pgju",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-5"
+            },
+            "price": "80 951,20 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H6929f1686b104a4c93fe93e9b406efe8N/Tablet-PC-for-Apple-iPad-Pro-2021-mhw63ru-A-M1-8c-8GB-128GB-11-IPs-2388x1668.jpg_220x220xz.jpg",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4000935545368,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2792104",
+                "aliMemberId": 848667346,
+                "storeName": "Официальный магазин Tmall - Техника",
+                "storeId": 2792104
+            },
+            "title": "Планшет Apple iPad Pro 12,9\" (2020) WI-FI 256 ГБ Liquid Retina Display",
+            "tradeDesc": "16 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "tags": {
+                "logistics_tag": {
+                    "tagImgWidth": 10,
+                    "tagImgHeight": 10,
+                    "tagText": "3-Day Delivery",
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hcf38c36b4eef40f09cb52444aaa17488P.png"
+                },
+                "tmall_tag": {
+                    "tagImgWidth": 120,
+                    "tagImgHeight": 48,
+                    "tagImgUrl": "//ae01.alicdn.com/kf/HTB1JXCMdv2H8KJjy0Fc761DlFXar.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4000935545368.html?algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-6&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1229252639pgju",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-6"
+            },
+            "price": "85 431,10 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H6169c07ddb76453496d565fa0cd627323/Tablet-Apple-iPad-Pro-12-9-2020-WI-FI-256-GB-liquid-Retina-Display.jpg_220x220xz.jpg",
+            "starRating": "4.2",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4000935531509,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2792104",
+                "aliMemberId": 848667346,
+                "storeName": "Официальный магазин Tmall - Техника",
+                "storeId": 2792104
+            },
+            "title": "Планшет Apple iPad Pro 12,9\" (2020) WI-FI 1 ТБ Liquid Retina Display",
+            "tradeDesc": "1 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "tags": {
+                "logistics_tag": {
+                    "tagImgWidth": 10,
+                    "tagImgHeight": 10,
+                    "tagText": "3-Day Delivery",
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hcf38c36b4eef40f09cb52444aaa17488P.png"
+                },
+                "tmall_tag": {
+                    "tagImgWidth": 120,
+                    "tagImgHeight": 48,
+                    "tagImgUrl": "//ae01.alicdn.com/kf/HTB1JXCMdv2H8KJjy0Fc761DlFXar.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4000935531509.html?algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-7&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1229252639pgju",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-7"
+            },
+            "price": "121 430,80 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H017e20d43b3e414da99401dd3b80a997y/Tablet-Apple-iPad-Pro-12-9-2020-WI-FI-1-TB-liquid-Retina-Display.jpeg_220x220xz.jpeg",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4000935350442,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2792104",
+                "aliMemberId": 848667346,
+                "storeName": "Официальный магазин Tmall - Техника",
+                "storeId": 2792104
+            },
+            "title": "Планшет Apple iPad Pro 11\" (2020) WI-FI 1 ТБ Liquid Retina Display",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "tags": {
+                "logistics_tag": {
+                    "tagImgWidth": 10,
+                    "tagImgHeight": 10,
+                    "tagText": "3-Day Delivery",
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hcf38c36b4eef40f09cb52444aaa17488P.png"
+                },
+                "tmall_tag": {
+                    "tagImgWidth": 120,
+                    "tagImgHeight": 48,
+                    "tagImgUrl": "//ae01.alicdn.com/kf/HTB1JXCMdv2H8KJjy0Fc761DlFXar.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4000935350442.html?algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-8&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1229252639pgju",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-8"
+            },
+            "price": "105 790,80 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/U6942d227398d492b92c89270a3b11b62q/Tablet-Apple-iPad-Pro-11-2020-WI-FI-1-TB-liquid-Retina-Display.jpg_220x220xz.jpg",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 32955630481,
+            "saleMode": "single-piece_sale",
+            "discount": 0,
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2792104",
+                "aliMemberId": 848667346,
+                "storeName": "Официальный магазин Tmall - Техника",
+                "storeId": 2792104
+            },
+            "title": "Планшет Apple iPad Pro 11\" Wi-Fi 1 ТБ (MTXW2RU/A, MTXW2RU/A)",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "tags": {
+                "logistics_tag": {
+                    "tagImgWidth": 10,
+                    "tagImgHeight": 10,
+                    "tagText": "3-Day Delivery",
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hcf38c36b4eef40f09cb52444aaa17488P.png"
+                },
+                "tmall_tag": {
+                    "tagImgWidth": 120,
+                    "tagImgHeight": 48,
+                    "tagImgUrl": "//ae01.alicdn.com/kf/HTB1JXCMdv2H8KJjy0Fc761DlFXar.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/32955630481.html?algo_pvid=ae6e88d4-9efe-4677-a1dc-855074138d4b&algo_expid=ae6e88d4-9efe-4677-a1dc-855074138d4b-9&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "ae6e88d4-9efe-4677-a1dc-855074138d4b",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1229252639pgju",
+                "algo_expid": "ae6e88d4-9efe-4677-a1dc-855074138d4b-9"
+            },
+            "price": "111 042,00 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H442e072cba8f4659ac49f481c8cbe650J/Tablet-Apple-iPad-Pro-11-Wi-Fi-1TB-MTXW2RU-A-MTXW2RU-A-.jpg_220x220xz.jpg",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005003069536071,
+            "feeDeductionLinkUrl": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=o.plwVvLO6cXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGz6Xuan3kjA.JeQ.QMLfwIGuxeyFzIA8vLSRQFc1QoZSizS.Yo6QnQI1F-xxdDxd8rnVr7E35Qq1pD7-Bs1QdeplTcvTsw3.j7G60YTS5IvqGCAHN3GdCVevafvcYAcPTCEdpIAEqrT3gw3t08fRbomEE1Yv546f0xVOB6MWsf8YhIhQMHEUZZ93n4bfnZKw-.KPYciVmI47l7karfbjEE3KEjzgyvd2TftdXs0Qg25GSxnUzA1a1DH-8qnfhYjw0s1cBlwS67190b5oNvKLY0raJpcsWE-xHVAq7mUGElJ7v8AxgTmNY500ZXniqMseFlHUK8H7E7awhO2uuf.hwdfbE-nE.jd0jBKpr4m-lP93byVgvtEEu-peMBC6qlDjwFjTKttEsTbPxERTI-hbUcgLaNH0kGmzGsRofddg.FxFEYbHBZOvvCuOzJbDsg5Ys4sg.Hj0cLZVXCksv-oXfwUaZfPrhqjhObZItTXF3V6vch1uumtnFvFWJ1oYsLFGNfYH-9Jq9zu0VocHd-wk.4wwtI.ErVVgbRu122ap9oFp-VrJO5MpaZt7c2pT8N.95z2lL5qybNcxDwJlNNFNfCG&ap=1&rp=1",
+            "saleMode": "single-piece_sale",
+            "adSessionId": "202108161553092383604168290380022643348",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/911756546",
+                "aliMemberId": 251440313,
+                "storeName": "Shenzhen mobile screen factory Store",
+                "storeId": 911756546
+            },
+            "title": "Для Apple iPad Pro 9,7, A1673, A1674, A1675, 9,7 дюйма 100% AAA + запасной ЖК-дисплей",
+            "tradeDesc": "2 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005003069536071.html?s=p&ad_pvid=202108161553092383604168290380022643348_1&algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-0&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "adTag": "Реклама",
+            "traceInfo": {
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200002251",
+                "ownerMemberId": "cn1541181413onbv",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-0"
+            },
+            "price": "8 281,44 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Heb8c90f408eb4370aad5ad74aa7473e6V/For-Apple-iPad-Pro-9-7-A1673-A1674-A1675-9-7-100-AAA-Grade-LCD-Display.png_220x220xz.png",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "productType": "ad_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002271795734,
+            "feeDeductionLinkUrl": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=FDh-HsNXN.cXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGyp9o9eyfC0HxcyTsFcvJR--m4GVm75GfLUhZF8dr5pv5W0K2s0y4C01SD8TTsGaQ-WUdLBmsL-BCaXD36Gidmax4Cu6oCvZilHtjIJp-OWWwhxYyGXK3GrfWtQEeP3BncfCQ.gnQpmBdSmks52NmaSO3n8XzaJPL6AAuLs0RST6jvjlL1cJH-9i4MRBiXs9qFmPPZ0tTb5DtD-F3gUQhvxcChvuvogxDVfjZJSh6rhhKexXEQef-L6F4gmOGWwdB6pzjTS8.mS-tSzSBfqk.fczG6Fi3a5xmimyqh7ogtscrUA3ZH4Sz14bGBo4WYmXd8USgu8SsQWpcIGaeKIvlPZ3xWFwsB1AileQDLKm0yWcWxaQwxi5A43bNZxhBvK0VqXKM7Y5xMjCchs4ignEruanGR5G-85oB2AyTPQi85lhc2tdCaiTU3Rnp82s59YgZ8UUcj18oBGsbsTVhN.E.vNWgMkwEgwtEqUL38-OeqzDQIVwuR3jZvZB0WxrbQO-neodXzbwL6FkM4m1G-saXihwxg5WcpTvqtAZY.44sQxzTjSuylPmREzrX7dJ.WKoFPrCMO0Aa-Z-Q__&ap=2&rp=2",
+            "saleMode": "single-piece_sale",
+            "adSessionId": "202108161553092383604168290380022643348",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/5797486",
+                "aliMemberId": 222212852,
+                "storeName": "Peilinc Official Store",
+                "storeId": 5797486
+            },
+            "title": "Оригинальный стилус для iPad, стилус для зарядки от iPad с наклоном, Apple Pencil 2 1 для 2018-2021 iPad Pro 11/12.9 Air 4 5 Mini 5 6",
+            "tradeDesc": "136 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005002271795734.html?s=p&ad_pvid=202108161553092383604168290380022643348_2&algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-1&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "adTag": "Реклама",
+            "traceInfo": {
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001095",
+                "ownerMemberId": "cn1512163675",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-1"
+            },
+            "price": "1 944,14 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H255a5ffadbf146dc9955be7c3aad7648C/Original-Stylus-Pen-iPad-Stylus-Charging-from-iPad-with-Tilt-Apple-Pencil-2-1-for-2018.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "4.9",
+            "productType": "ad_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001527575202,
+            "feeDeductionLinkUrl": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=KgHhi1P3XuIXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGyRDwXS4YxDIWuP947I5B5EK2YlIllZSkGLTbvi0U2ceizS.Yo6QnQI1F-xxdDxd8rnVr7E35Qq1pD7-Bs1QdeplTcvTsw3.j5ma1aeYT5e8BoMDq6pCHJJpDaXKdY.sER9a1AR4.cGdyQxmx588DRUSszZe2PgAkpFI6NVSfsXjErlmhjeXkNEc8xhc5ZkZGtxIhUB3opWaWY89nS1NvkO0P4XeBRCG.FwKG-6-iDENV-NklKHquGEp7FcRB5.4voXiCY4ZbB0HqnONNLz-ZL61LNIF-qT99zMboWLdrnGaKbKqHuiC2xytQDdkfhLPXhsYGjhZiZd3xRKC7xKxBalwgZp4oi-U9nfFYXCwHUCKbM91K0RpEuuskPGz-HxCUFYCBnF6uY0c7qzGQZCi8X7hQf0a-BGQtni3teym5gQjf7cNN5zRKucRzuRTiE50C2enzazn1iBnxRRyPXygEaxuxNWE38T-81aAyTASDC0SpQvfz456rMNAhXC5HeNm9kq7il6ulZ6.nnzYXyE3pzBzibUb6xpeKHDGDlZylO-q0Blj.jixDHNONK7KU-ZETOtft0n9YqgU-sIw7QBr5n5&ap=3&rp=3",
+            "saleMode": "single-piece_sale",
+            "adSessionId": "202108161553092383604168290380022643348",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/5521044",
+                "aliMemberId": 240019499,
+                "storeName": "BEFAN Store",
+                "storeId": 5521044
+            },
+            "title": "Тачпад клавиатура для iPad 10,2 Чехол для iPad 9,7 2018 Air 2 3 4 10,9 Pro 9,7 10,5 11 2019 2020 2021 5th 6th 7th 8th клавиатура",
+            "tradeDesc": "37 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005001527575202.html?s=p&ad_pvid=202108161553092383604168290380022643348_3&algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-2&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "adTag": "Реклама",
+            "traceInfo": {
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1529790116pqbo",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-2"
+            },
+            "price": "2 690,15 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H5a583c34444e4869b71fd59fb8351053b/TouchPad-Keyboard-for-iPad-10-2-Case-For-iPad-9-7-2018-Air-2-3-4.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "4.3",
+            "productType": "ad_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005003122912609,
+            "feeDeductionLinkUrl": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=m9LBuiHtlDgXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGww-eCaU5rU3Wlyz2zNYZrMicvaX0U7TIJzJ.icnYJlxCzS.Yo6QnQI1F-xxdDxd8rnVr7E35Qq1pD7-Bs1QdeplTcvTsw3.j6LePJilqZakSxw3ASvwAvAvafvcYAcPTBigneKCD6oHjB64ylolFlhqX4xWN3GhCtbVOKuwB6Vt8lpBQOPhOKKGlnqPnzDDhC6nJUlp0V638o9hyJWYjjuXuRqt9uMQTcoSPODK93ZN-11ezRCDbkZLGdTMDVrUMf7yqd-FiPDSzVwGXBLrvX3Rvmg28otjStomlyxYT7EdUCruZQYSUnu.wDGBOY1jnTRleeKoyx4WUdQrwfsTtrCE7a65.-HB1.WLkXs-bLcMUqmvib6U.3dzsQ2F1QM5B4Ii0h9e2TNCwm6Q6yTuh.d1nGtI1C6yb6QlpUu2DtL9t6hih-vhNCkUPEPERryU3Yc27fVyGPj-nEKuz8u-t.Z-JKoVQDK.ucZIEzzARRp.OscSQNRWBcSUGQd-ogdTvCdl58aSkUxj.2inS4aa78ZvtK4qXOocn61PVqGMwQW1cKlDasqz.ZVM02g5COUmCLxKIJ80cH0aMz.WkpaGXRUpTc9hm4I4ZVJoqIBxgCAjQ__&ap=4&rp=4",
+            "saleMode": "single-piece_sale",
+            "adSessionId": "202108161553092383604168290380022643348",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/912028012",
+                "aliMemberId": 251787836,
+                "storeName": "CXAQIUHGMAX Store",
+                "storeId": 912028012
+            },
+            "title": "2021 Чехол для iPad Pro 11 дюймов, Чехол для iPad Mini 4 5 10,5 Air 3 10,9 iPad Air 4, чехол 10,9 дюйма для iPad 10,2 дюйма, чехол для iPad",
+            "tradeDesc": "9 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005003122912609.html?s=p&ad_pvid=202108161553092383604168290380022643348_4&algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-3&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "adTag": "Реклама",
+            "traceInfo": {
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1541396029tgra",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-3"
+            },
+            "price": "1 280,27 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H73aa052fafbb4f28ac9f897716ff6bb4B/2021-iPad-Case-For-iPad-Pro-11-inch-Cover-For-iPad-Mini-4-5-10-5.jpg_220x220xz.jpg",
+            "productType": "ad_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005003107631170,
+            "feeDeductionLinkUrl": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=1EUILI6MHmQXGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGxlCF8YS8WwJSjnj3utfidWVN-WI7joeMXUhZF8dr5pv5W0K2s0y4C01SD8TTsGaQ-WUdLBmsL-BCaXD36Gidmax4Cu6oCvZilg8fyVk3lGwyNnsuxEluUxZJXfRCuB89RtS6m.JUWCD2lQAdXZYaw4uo5Cc3pOsTZxTBoqKd9AL-pfrj7QXXHtc8xhc5ZkZGtxIhUB3opWaWY89nS1NvkO0P4XeBRCG.FwKG-6-iDENV-NklKHquGEp7FcRB5.4voXiCY4ZbB0HqnONNLz-ZL61LNIF-qT99zMboWLdrnGaKbKqHuiC2xytQDdkfhLPXhsYGjhZiZd3xRKC7xKxBalwgZp4oi-U9nfFYXCwHUCKYSqJmsw1nYVuMhQxBPjOfYM.gB5WnKjPMfNQkZifqIDhVfcgpWD4IPW0sM-maGTxiOHcvYSCBBJVUFM67TCfKimf5u65Ke3w3bnI1Kjes4XxnWLf1UH264.0XZf-hczVhtVDW9Ej9JtE1iGwpL2RC5Acbcjy.uqqu1HxonG.GcoY0Du9.QhSSX3cMAMSB56kGCpUqZF8Bf6StIKuSKsmt-23PQfduy8ht75cJAVbCDg7yTe1GQBy3-l6P1lgqsVcA__&ap=7&rp=7",
+            "saleMode": "single-piece_sale",
+            "adSessionId": "202108161553092383604168290380022643348",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1261671",
+                "aliMemberId": 221208907,
+                "storeName": "GOOJODOQ Official Store",
+                "storeId": 1261671
+            },
+            "title": "Ультратонкий чехол для iPad Air 4 Чехол iPad Pro 11 Pro 12 9 12.9 чехол для iPad 8 поколение Чехол Air 2 Air 1 Air 3 10,5 Mini Funda",
+            "tradeDesc": "28 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005003107631170.html?s=p&ad_pvid=202108161553092383604168290380022643348_7&algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-6&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "adTag": "Реклама",
+            "traceInfo": {
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1511190498",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-6"
+            },
+            "price": "602,08 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H8b9d82ff4bb74b30a34347e3722d1e269/Ultra-thin-Cover-for-iPad-Air-4-Case-iPad-Pro-11-Pro-12-9-12-9.jpg_220x220xz.jpg",
+            "starRating": "5.0",
+            "productType": "ad_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002239631999,
+            "feeDeductionLinkUrl": "//us-click.aliexpress.com/ci_bb?ot=local&a=1890777930&e=Xwl7Af.G2U4XGfLU5j7-sq0zgeRwpxfrsTNCNSI2NE42etphWOhjoRNAO9aMmVS8kPUczsWeBGyLAE1CYkeBEB.x74uu158eJ.CUuS46UGEbJAz24C1r-5kcybI0H4rj5y4zTPsaQUNDFUCv7YxpqucFBseYOgXbLpU11sJdrCt-ETV4Yw7Ep7tOErNNgpvyy8-rvfY7LBfUMA6g1.hyHeqBcLxHFkMXvhPcjwk8ZSdVCRdNvZaMTQrBeJYf5kWJpeGibbpEaRgq1BfCdeloEyNvNl-S9eaG3JWSi7iTRf2YGIE9ICYaCiDtJUxVZpbXY0YSkwUHdqg0uaVJYoDUd10oDXg3Y4UdCNF66MwlngYGfKL5Xh2K892egp.9x20sudny4gKZ8OopOIZIoB.oq26k8c8QN3h6xVJRs3VWPusEwF1iJ1kjHhjta0swNg9nwpm706PxdBaNOiXDBssXiCt-EYHRLgypLGf8w.MrVxypkU2ZLSe9Rm8pkvpkzg5SEl36bKqLZXVbq8I0dlnXKHdiquz4Qz0.NpIHibXIyVEgmam5AwrhjMA2TAA50WGleIE3yHJ5p79iJGnTA8.6GAOuDwyZdJLXGzHR6QB1XvSKH0ImVbXYDKFiTHXFgCW8HLZC4oB6KRdfr.asImZyJg__&ap=8&rp=8",
+            "saleMode": "single-piece_sale",
+            "adSessionId": "202108161553092383604168290380022643348",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/4397055",
+                "aliMemberId": 228411078,
+                "storeName": "xundd Official Store",
+                "storeId": 4397055
+            },
+            "title": "Для iPad Pro 12,9 2021 чехол, Xundd защитный чехол для планшетов, для iPad Pro 12,9 3rd 4th Gen 2018 2020 чехол, прозрачный",
+            "tradeDesc": "42 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005002239631999.html?s=p&ad_pvid=202108161553092383604168290380022643348_8&algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-7&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "adTag": "Реклама",
+            "traceInfo": {
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cnxundd",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-7"
+            },
+            "price": "1 296,85 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H3dbdbfda0a3043159f0b48dbca764ea3P/For-iPad-Pro-12-9-2021-Case-Xundd-Protective-Tablets-Cover-For-iPad-Pro-12-9.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "4.6",
+            "productType": "ad_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002425440407,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/3353020",
+                "aliMemberId": 230921784,
+                "storeName": "JustFixIt Store",
+                "storeId": 3353020
+            },
+            "title": "Оригинальный ремонт Apple IPad Pro 9,7 2016 9,7 дюймов, A1673 Wifi версия около 80% Новый разблокировка",
+            "tradeDesc": "2 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005002425440407.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-9&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1520753574zino",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-9"
+            },
+            "price": "26 190,14 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H0110834d5e2a438b9db8976d2a48f9e1K/Original-Refurbish-Apple-IPad-Pro-9-7-2016-9-7-inches-A1673-Wifi-Version-About-80.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "5.0",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001901673143,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/3353020",
+                "aliMemberId": 230921784,
+                "storeName": "JustFixIt Store",
+                "storeId": 3353020
+            },
+            "title": "Оригинальный ремонт Apple IPad pro 2015 A1584 12,9 дюймов Wifi версия черный белый около 80% новая разблокировка",
+            "tradeDesc": "6 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005001901673143.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-10&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1520753574zino",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-10"
+            },
+            "price": "34 064,66 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H80d5ef0cfc5346ca95e14c84df4c4d82Y/Original-Refurbish-Apple-IPad-pro-2015-A1584-12-9-inches-Wifi-Version-Black-white-About-80.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "5.0",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002709879557,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/3353020",
+                "aliMemberId": 230921784,
+                "storeName": "JustFixIt Store",
+                "storeId": 3353020
+            },
+            "title": "100% оригинальная новая версия WiFi 2021 Apple 11-дюймовый iPad Pro 5-го поколения M1 чип",
+            "tradeDesc": "7 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005002709879557.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-14&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1520753574zino",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-14"
+            },
+            "price": "110 243,34 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H83def0a36d5b41bdb4dfb6dedd075b9eN/100-Original-New-WiFi-Version-2021-Apple-11-inch-iPad-Pro-5th-generation-M1-Chip.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "5.0",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002708551719,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/3353020",
+                "aliMemberId": 230921784,
+                "storeName": "JustFixIt Store",
+                "storeId": 3353020
+            },
+            "title": "2021 Apple 12,9-дюймовый iPad Pro 5-го поколения M1 чип 100% оригинальная новая версия WiFi",
+            "tradeDesc": "2 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005002708551719.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-15&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1520753574zino",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-15"
+            },
+            "price": "163 074,24 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H20eaf80c3c1245688d9a4a4b424747a6n/2021-Apple-12-9-inch-iPad-Pro-5th-generation-M1-Chip-100-Original-New-WiFi-Version.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "5.0",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4000935537399,
+            "saleMode": "single-piece_sale",
+            "discount": 0,
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2792104",
+                "aliMemberId": 848667346,
+                "storeName": "Официальный магазин Tmall - Техника",
+                "storeId": 2792104
+            },
+            "title": "Планшет Apple iPad Pro 12,9\" (2020) Wi-Fi + Cellular 256 ГБ Liquid Retina Display",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "tags": {
+                "logistics_tag": {
+                    "tagImgWidth": 10,
+                    "tagImgHeight": 10,
+                    "tagText": "3-Day Delivery",
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hcf38c36b4eef40f09cb52444aaa17488P.png"
+                },
+                "tmall_tag": {
+                    "tagImgWidth": 120,
+                    "tagImgHeight": 48,
+                    "tagImgUrl": "//ae01.alicdn.com/kf/HTB1JXCMdv2H8KJjy0Fc761DlFXar.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4000935537399.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-19&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1229252639pgju",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-19"
+            },
+            "price": "102 290,00 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/U949f2d9db37449d4b5781c15595e6903L/Tablet-Apple-iPad-Pro-12-9-2020-Wi-Fi-Cellular-256-GB-liquid-Retina-Display.jpg_220x220xz.jpg",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001901840766,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/3353020",
+                "aliMemberId": 230921784,
+                "storeName": "JustFixIt Store",
+                "storeId": 3353020
+            },
+            "title": "Оригинальный ремонт Apple IPad pro 2017 A1670 12,9 дюймов Wifi версия черный белый около 80% новая разблокировка",
+            "tradeDesc": "1 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005001901840766.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-20&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1520753574zino",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-20"
+            },
+            "price": "51 540,83 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H610fde52b8f34ce482f1cb72dcf17a05q/Original-Refurbish-Apple-IPad-pro-2017-A1670-12-9-inches-Wifi-Version-Black-white-About-80.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001901830441,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/3353020",
+                "aliMemberId": 230921784,
+                "storeName": "JustFixIt Store",
+                "storeId": 3353020
+            },
+            "title": "Оригинальный ремонт Apple IPad pro 2017 A1701 10,5 дюйма Wifi версия черный белый около 80% новая разблокировка",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005001901830441.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-21&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1520753574zino",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-21"
+            },
+            "price": "47 666,12 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H2d9c72c6a67d448485d7f0c768ad89155/Original-Refurbish-Apple-IPad-pro-2017-A1701-10-5-inches-Wifi-Version-Black-white-About-80.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002791464492,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/5380335",
+                "aliMemberId": 239592157,
+                "storeName": "baobaobao Store",
+                "storeId": 5380335
+            },
+            "title": "2021 Новый Лидер продаж Android 9,0 планшетный ПК 10 дюймов с 6 ГБ + 128 ГБ устройство чтения карт памяти, две SIM карты, Ipad Pro Чехол для телефона 4G телефон...",
+            "tradeDesc": "3 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005002791464492.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-22&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1529420489izgo",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-22"
+            },
+            "price": "7 222,71 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Hd17f97a20ced4e3b83b567b5ba7e0303Y/2021-New-Hotselling-Android-9-0-Tablet-10-Inch-with-6GB-128GB-Memory-Dual-SIM-Card.jpg_220x220xz.jpg",
+            "starRating": "5.0",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005003035837172,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/5372225",
+                "aliMemberId": 230005474,
+                "storeName": "high quality tablet Store",
+                "storeId": 5372225
+            },
+            "title": "Планшет на Android 9,0, 10 дюймов, 6 + 128 ГБ, 2 SIM-карты",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005003035837172.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-23&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202060516",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001086",
+                "ownerMemberId": "cn1519901812xpao",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-23"
+            },
+            "price": "7 045,63 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H3e953f03b3a84f2493b348553b4767f2H/New-Android-9-0-Tablet-10-Inch-with-6GB-128GB-Memory-Dual-SIM-Card-Ipad-Pro.jpg_220x220xz.jpg",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001458831163,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/910361173",
+                "aliMemberId": 244111748,
+                "storeName": "DANYCASE Accessories Store",
+                "storeId": 910361173
+            },
+            "title": "2019 iPad 10,2 чехол для iPad 7-го поколения Чехол для 2017 2018 iPad 9,7 5/6th Air 2/3 10,5 Mini 4 5 2020 Pro 11 Air 4 10,9",
+            "tradeDesc": "13682 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/1005001458831163.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-24&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202004360",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1000796424udrae",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-24"
+            },
+            "price": "456,65 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H5f2d626f3dc0484a9963734dcff55b21n/2019-iPad-10-2-Case-For-iPad-7th-Generation-Cover-For-2017-2018-iPad-9-7.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001495823095,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/4591007",
+                "aliMemberId": 234707816,
+                "storeName": "AIEACH Official Store",
+                "storeId": 4591007
+            },
+            "title": "Планшет Беспроводная клавиатура для iPad Pro 2020 11 12,9 10,5 Teclado, Bluetooth-совместимая клавиатура мышь для iPad 8th 7th Air 4 3 2",
+            "tradeDesc": "5363 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005001495823095.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-25&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "205845005",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "201228314",
+                "ownerMemberId": "cn1524506214bzju",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-25"
+            },
+            "price": "1 094,90 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H3a707d2677ae49f482d4af01b4ecc72a2/Tablet-Wireless-Keyboard-For-iPad-Pro-2020-11-12-9-10-5-Teclado-Bluetooth-compatible-Keyboard.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "saleComplexUnit": "pieces",
+            "productId": 33020322877,
+            "saleMode": "packaging_sale",
+            "leastPackagingNum": 3,
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2199045",
+                "aliMemberId": 206151103,
+                "storeName": "Fundas",
+                "storeId": 2199045
+            },
+            "title": "Защитное стекло, закаленное стекло для Ipad 2 3 4 air 12 pro 7,9 9,7 10,2 7 поколения 10,5 2018 2019 mini 5",
+            "tradeDesc": "3367 продано",
+            "saleUnit": "партия",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/33020322877.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-26&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202005338",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200002109",
+                "ownerMemberId": "cn1501668653",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-26"
+            },
+            "price": "544,81 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/HTB1yVH7XlSD3KVjSZFqq6A4bpXa4/3packs-tempered-glass-screen-protector-for-Ipad-2-3-4-air-12-pro-7-9-9.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4000426521336,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1261671",
+                "aliMemberId": 221208907,
+                "storeName": "GOOJODOQ Official Store",
+                "storeId": 1261671
+            },
+            "title": "Для iPad Pencil с отказом от ладони, стилус для Apple Pencil 2 1 iPad Pen Pro 11 12,9 2021 2020 2018 2018 2019 Air 4 7th 8th Air 12,9 2020 2020",
+            "tradeDesc": "8019 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4000426521336.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-28&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202004364",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001095",
+                "ownerMemberId": "cn1511190498",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-28"
+            },
+            "price": "1 904,20 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H861f7c5304c24b5ba82e90647e8fabb1f/For-iPad-Pencil-with-Palm-Rejection-Stylus-Pen-for-Apple-Pencil-2-1-iPad-Pen-Pro.jpg_220x220xz.jpg",
+            "starRating": "4.9",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 32876459847,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2136188",
+                "aliMemberId": 227924494,
+                "storeName": "BASEUS Global Store",
+                "storeId": 2136188
+            },
+            "title": "USB кабель Baseus для iPhone 11 Pro Max X XR XS 8 7 6 6s 5 5s iPad быстрое зарядное устройство USB провод кабель кабели для мобильных телефонов",
+            "tradeDesc": "31856 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/32876459847.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-29&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202001970",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "440504",
+                "ownerMemberId": "cn1517828294uysv",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-29"
+            },
+            "price": "121,32 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Hf7b7cf8adbe14ba5bdf5d9e597d5b712k/Baseus-USB-Cable-For-iPhone-12-11-Pro-Max-X-XR-XS-8-7-6-6s.jpg_220x220xz.jpg",
+            "starRating": "4.9",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "saleComplexUnit": "pieces",
+            "productId": 32979044844,
+            "saleMode": "packaging_sale",
+            "leastPackagingNum": 3,
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/112013",
+                "aliMemberId": 201094905,
+                "storeName": "NETBRIDGE Store",
+                "storeId": 112013
+            },
+            "title": "Пленка из закаленного стекла для iPad Pro 11, 3 шт., Защита экрана для iPad 10,2 2019 Air 4 3 2 Pro 10,5 12,9 Mini 5 4 3 2, стекло",
+            "tradeDesc": "2093 продано",
+            "saleUnit": "партия",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/32979044844.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-30&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202005338",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200002109",
+                "ownerMemberId": "cn1000592055",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-30"
+            },
+            "price": "582,49 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Heef57f791cdb44c492ac96721fbcef7fq/3piece-Tempered-Glass-Film-For-iPad-Pro-11-Screen-Protector-For-iPad-10-2-2019-Air.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4001030037964,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1873497",
+                "aliMemberId": 225228960,
+                "storeName": "eAmpang Official Store",
+                "storeId": 1873497
+            },
+            "title": "Волшебная сенсорная клавиатура для iPad 10,2, чехол для клавиатуры для Apple iPad 9,7 2017 2018 Air 2 3 4 Pro 9,7 10,5 11 2019 2020 2021 8th",
+            "tradeDesc": "2784 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/4001030037964.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-31&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202004360",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1515173934gnvk",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-31"
+            },
+            "price": "2 111,43 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H152b8b1feb374664be5b8e4415d12ff4f/Magic-TouchPad-Keyboard-for-iPad-10-2-Keyboard-Case-for-Apple-iPad-9-7-2017-2018.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "4.7",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005002740259705,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/4459030",
+                "aliMemberId": 234495635,
+                "storeName": "DUNNO Official Store",
+                "storeId": 4459030
+            },
+            "title": "Защитная пленка для экрана в виде бумаги для iPad Pro 11 2021 2020 2018 iPad Air 4 10,9 10,2 7-й 8-й съемный магнитный привод",
+            "tradeDesc": "309 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005002740259705.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-32&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202005338",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200002109",
+                "ownerMemberId": "cn1000796423gmxae",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-32"
+            },
+            "price": "908,77 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Hf8a657981005478689f1b9b05c851d83t/Paper-Like-Screen-Protector-Film-for-iPad-Pro-11-2021-2020-2018-iPad-Air-4-10.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "5.0",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 32977607224,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1495111",
+                "aliMemberId": 221287322,
+                "storeName": "ZVRUA Official Store",
+                "storeId": 1495111
+            },
+            "title": "Бумажная Защитная пленка для экрана, Матовая Антибликовая живопись для Apple iPad 9,7 Pro 10,5 mini Face ID 11, новинка 12,9, 10,2 дюйма",
+            "tradeDesc": "1490 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/32977607224.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-33&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202005338",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200002109",
+                "ownerMemberId": "cn1511271421",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-33"
+            },
+            "price": "474,73 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/HTB1eUwdbnjxK1Rjy0Fnq6yBaFXa7/Paper-Screen-Protector-Like-Film-Matte-PET-Anti-Glare-Painting-For-Apple-iPad-9-7-Pro.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4000407654180,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/4996463",
+                "aliMemberId": 238157601,
+                "storeName": "VUUV Official Store",
+                "storeId": 4996463
+            },
+            "title": "Защитная пленка под бумагу для iPad Pro 11 10,5 12,9 9,7, чертежная матовая пленка для iPad 2018 2017 9,7 2019 10,2 Air 1 2 3 mini 4 5",
+            "tradeDesc": "1294 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "marketing_tag": {
+                    "tagText": "Ограниченная серия"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4000407654180.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-34&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202005338",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200002109",
+                "ownerMemberId": "cn1527947179sjlz",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-34"
+            },
+            "price": "435,55 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H4a48b430214f411580f20bd86e4c8a49W/Paper-Like-Screen-Protector-For-iPad-Pro-11-10-5-12-9-9-7-Drawing-Matte.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 32864276247,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/301635",
+                "aliMemberId": 200341888,
+                "storeName": "Ugreen Official Store",
+                "storeId": 301635
+            },
+            "title": "Ugreen USB C к USB Type C для Samsung S20 PD 100 Вт 60 Вт кабель для MacBook iPad Pro Quick Charge 4,0 USB-C кабель для быстрой зарядки USB",
+            "tradeDesc": "24711 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "marketing_tag": {
+                    "tagText": "Ограниченная серия"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/32864276247.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-35&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202001970",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "440504",
+                "ownerMemberId": "szgreenconnection",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-35"
+            },
+            "price": "134,88 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H8badf96f79d445cdb6740d1ccd597565d/Ugreen-USB-C-to-USB-Type-C-for-Samsung-S20-PD-100W-60W-Cable-for-MacBook.jpg_220x220xz.jpg",
+            "starRating": "4.9",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4001178031643,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/5891282",
+                "aliMemberId": 242908872,
+                "storeName": "DANYCASE Official Store",
+                "storeId": 5891282
+            },
+            "title": "Чехол для 2020 iPad 10,2 8th 2018 2017 9,7 Mini 5 2021 Pro 11 10,5 Air 3 4, умный чехол с держателем для стилуса, iPad 5th 6th Generation",
+            "tradeDesc": "7200 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4001178031643.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-36&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202004360",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1532608159qxow",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-36"
+            },
+            "price": "602,08 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H60a3d85f91a543e28554ecd5be501aabN/Case-For-2020-iPad-10-2-8th-2018-2017-9-7-Mini-5-2021-Pro-11.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001484769431,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1245004",
+                "aliMemberId": 221071036,
+                "storeName": "BASEUS Officialflagship Store",
+                "storeId": 1245004
+            },
+            "title": "USB-кабель Baseus для iPhone 12/11 Pro/Xs Max, 20 Вт",
+            "tradeDesc": "16056 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "marketing_tag": {
+                    "tagText": "Ограниченная серия"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/1005001484769431.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-37&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202001970",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "440504",
+                "ownerMemberId": "cn1511028182",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-37"
+            },
+            "price": "321,01 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H8d51e8bb99374849bee72b3652eea563M/Baseus-20W-PD-USB-Type-C-Cable-for-iPhone-12-11-Pro-Xs-Max-Fast-Charging.jpg_220x220xz.jpg",
+            "starRating": "4.9",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 32961515596,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1261671",
+                "aliMemberId": 221208907,
+                "storeName": "GOOJODOQ Official Store",
+                "storeId": 1261671
+            },
+            "title": "Чехол GOOJODOQ для iPad Pro 11 2020 чехол для iPad Air 4 Чехол Air 2020 10,2 Pro 11 12,9 12 9 2021 для iPad 8 поколение 8 Funda",
+            "tradeDesc": "6426 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "marketing_tag": {
+                    "tagText": "Ограниченная серия"
+                },
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/32961515596.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-38&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202004360",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1511190498",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-38"
+            },
+            "price": "721,14 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Ha78c1944d1a74982b10af83ae2c56ed9H/GOOJODOQ-Case-for-iPad-Pro-11-2020-Case-for-iPad-Air-4-Case-Air-2020-10.jpg_220x220xz.jpg",
+            "starRating": "4.7",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4001291458682,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1245004",
+                "aliMemberId": 221071036,
+                "storeName": "BASEUS Officialflagship Store",
+                "storeId": 1245004
+            },
+            "title": "Baseus USB кабель со светодиодной подсветкой для iPhone 12 11 Pro Xs Max X Xr 8, 7, 6, 6S быстрое зарядное устройство мобильный телефон кабель для передачи данны...",
+            "tradeDesc": "17741 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/4001291458682.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-39&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202001970",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "440504",
+                "ownerMemberId": "cn1511028182",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-39"
+            },
+            "price": "140,91 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H793d5b13966c4ee38411a012b2b2c791t/Baseus-LED-USB-Cable-For-iPhone-12-11-Pro-Xs-Max-X-Xr-8-7-6.jpg_220x220xz.jpg",
+            "starRating": "4.9",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001860004886,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/4494012",
+                "aliMemberId": 234508122,
+                "storeName": "Sofia Store",
+                "storeId": 4494012
+            },
+            "title": "Чехол для iPad Air 4, чехол для 2020 iPad 10,2, чехол для 7 8-го поколения, чехол Pro 11 2020 Mini 5 10,5 Air 2 9,7 6-го поколения, Чехол для iPad Pro 11 2021",
+            "tradeDesc": "16918 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005001860004886.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-40&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202004360",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1524466244mitv",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-40"
+            },
+            "price": "458,15 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Hcb119e8370de41bfa0b1fe57d04deecdZ/For-iPad-Air-4-Case-2020-iPad-10-2-Case-7-8th-Generation-Case-Pro-11.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4001006520994,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/4654013",
+                "aliMemberId": 234633847,
+                "storeName": "BASEUS 3C Boutique Store",
+                "storeId": 4654013
+            },
+            "title": "Baseus USB C HUB Type C HUB to HDMI-совместимый USB 3,0 PD порт Мобильный телефон USB-C USB HUB адаптер для MacBook Pro для iPad Pro",
+            "tradeDesc": "1982 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4001006520994.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-41&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202001167",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "708032",
+                "ownerMemberId": "cn1524392352xzxd",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-41"
+            },
+            "price": "3 030,00 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H7dead97d945244ff9fa34dd0e1d46b3ft/Baseus-USB-C-HUB-Type-C-HUB-to-HDMI-compatible-USB-3-0-PD-Port-Mobile.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 32841653232,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/531091",
+                "aliMemberId": 205954859,
+                "storeName": "SZEGYCHX Official Store",
+                "storeId": 531091
+            },
+            "title": "С карандашом держатель чехол для iPad AIR 3 4 Pro 10,5 2019 7th 10,2 8th 2020 чехол для iPad 6th 2018 9,7 Обложка для iPad Mini iPad 5 принципиально Капа",
+            "tradeDesc": "5621 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/32841653232.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-42&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202004360",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1501475155",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-42"
+            },
+            "price": "728,68 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H4f012a62b6864a95960dd66c66f62f01P/For-iPad-Air-4-Case-2020-iPad-Pro-11-Case-2021-Pro-12-9-Funda-iPad.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001432505363,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1261671",
+                "aliMemberId": 221208907,
+                "storeName": "GOOJODOQ Official Store",
+                "storeId": 1261671
+            },
+            "title": "Для iPad Air 4 Чехол для iPad Pro 11 2020 2021 Pro 12 9 чехол 2021 12,9 для iPad Air 2020 чехол Funda Capa Поддержка беспроводного зарядного устройства",
+            "tradeDesc": "2835 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "marketing_tag": {
+                    "tagText": "Ограниченная серия"
+                },
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/1005001432505363.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-43&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202004360",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1511190498",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-43"
+            },
+            "price": "1 030,85 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H600fa9e1f80247028ad8ea7e4e47ff92d/For-iPad-Air-4-Case-for-iPad-Pro-11-2020-2021-Pro-12-9-Case-2021.jpg_220x220xz.jpg",
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4000135781059,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/5208049",
+                "aliMemberId": 239135668,
+                "storeName": "Lention Official Store",
+                "storeId": 5208049
+            },
+            "title": "Алюминиевая вертикальная настольная подставка для MacBook Air/Pro 16 13 15, iPad Pro 12,9, Chromebook и ноутбуков от 11 до 17 дюймов",
+            "tradeDesc": "622 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4000135781059.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-44&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202005969",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200003384",
+                "ownerMemberId": "cn1529035268kggm",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-44"
+            },
+            "price": "1 727,87 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H62a087b1f94d49169002536ca17fb8c3Z/Aluminum-Space-Saving-Vertical-Desktop-Stand-for-MacBook-Air-Pro-16-13-15-iPad-Pro-12.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "4.9",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4000197578306,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1873497",
+                "aliMemberId": 225228960,
+                "storeName": "eAmpang Official Store",
+                "storeId": 1873497
+            },
+            "title": "Чехол для iPad 10,2, чехол с клавиатурой и держателем для карандашей для Apple iPad 7, 7, 8, 8 поколения, Air 3 Pro 10,5, русский, испанский, английский",
+            "tradeDesc": "1502 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/4000197578306.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-45&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202004360",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200001091",
+                "ownerMemberId": "cn1515173934gnvk",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-45"
+            },
+            "price": "1 449,82 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Hf6eb378157974b628cde43dc4c8b0778N/Case-for-iPad-10-2-Keyboard-Case-with-Pencil-Holder-for-Apple-iPad-7-7th-8.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "4.8",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001698690528,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/5794191",
+                "aliMemberId": 240916030,
+                "storeName": "SELECTEC Global Store",
+                "storeId": 5794191
+            },
+            "title": "Адаптер OTG USB с подсветкой «папа» на USB 3,0 iOS 13, адаптер для зарядки для iPhone 12, 11 Pro, XS, Max, XR, X, 8, 7, 6s, 6 Plus, iPad, адаптер",
+            "tradeDesc": "4834 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005001698690528.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-46&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202001216",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "5093006",
+                "ownerMemberId": "cn1530683699iyph",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-46"
+            },
+            "price": "88,16 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Hf1396e0aaa934b48a07b4cb6aba4c3429/OTG-USB-Adapter-Lighting-Male-to-USB3-0-iOS-13-Charging-Adapter-For-iPhone-12-11.jpg_220x220xz.jpg",
+            "sellingPoints": [
+                {
+                    "sellingPointType": "feature_sell_point",
+                    "tagText": "Бесплатный возврат",
+                    "sellingPointTagId": "1200013764"
+                }
+            ],
+            "starRating": "4.7",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 1005001476195121,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/2343184",
+                "aliMemberId": 228486479,
+                "storeName": "BASEUS Official Store",
+                "storeId": 2343184
+            },
+            "title": "USB-кабель Baseus 20 Вт для iPhone 12 11 Pro Max XR 8 PD, быстрая зарядка для iPhone, зарядный кабель для MacBook iPad Pro, кабель Type-C",
+            "tradeDesc": "5679 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/1005001476195121.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-47&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202001970",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "440504",
+                "ownerMemberId": "cn1518379756rlaz",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-47"
+            },
+            "price": "338,34 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/H0ab0fbafef6740ba9d97423345ecd676K/Baseus-20W-USB-C-Cable-for-iPhone-12-11-Pro-Max-XR-8-PD-Fast-Charging.jpg_220x220xz.jpg",
+            "starRating": "4.9",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4001071868386,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/5596471",
+                "aliMemberId": 240168862,
+                "storeName": "kpan Official Store",
+                "storeId": 5596471
+            },
+            "title": "KPAN HD для Macbook Pro 13 2020 M1 Chip A2337 2338, протектор экрана Pro Air 12 13 15 16 2179 2289 1706 2251, гибкая стеклянная пленка",
+            "tradeDesc": "646 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {
+                "marketing_tag": {
+                    "tagText": "Ограниченная серия"
+                },
+                "plus_tag": {
+                    "tagImgWidth": 58,
+                    "tagImgHeight": 32,
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/Hd986c13bb1254b5d866705daf349d878O.png"
+                },
+                "logistics_tag": {
+                    "tagImgWidth": 10,
+                    "tagImgHeight": 10,
+                    "tagText": "5-Day-Delivery",
+                    "tagImgUrl": "http://ae01.alicdn.com/kf/H628a9b47337942bdbbddf04fbbb3813cB.png"
+                }
+            },
+            "productDetailUrl": "//aliexpress.ru/item/4001071868386.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-48&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202005338",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200002109",
+                "ownerMemberId": "cn1529967355jvak",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-48"
+            },
+            "price": "981,11 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Heaa222369e0a494c9ecff24627573780L/KPAN-HD-for-Macbook-Pro-13-2020-M1-Chip-A2337-2338-Screen-Protector-Pro-Air-12.jpg_220x220xz.jpg",
+            "starRating": "4.6",
+            "productType": "ordinary_product"
+        },
+        {
+            "imageWidth": 220,
+            "productId": 4001179693098,
+            "saleMode": "single-piece_sale",
+            "store": {
+                "storeUrl": "//aliexpress.ru/store/1074162",
+                "aliMemberId": 220433500,
+                "storeName": "Opto Direct Store",
+                "storeId": 1074162
+            },
+            "title": "Складная Алюминиевая Подставка для ноутбука, портативный держатель для ноутбука, подставка для планшета, компьютера, для MacBook Air Pro ipad",
+            "tradeDesc": "2936 продано",
+            "saleUnit": "piece",
+            "imageHeight": 220,
+            "logisticsDesc": "Бесплатная доставка",
+            "tags": {},
+            "productDetailUrl": "//aliexpress.ru/item/4001179693098.html?algo_pvid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357&algo_expid=75ac0f80-01ea-43f3-a9de-8fa5f52a8357-49&btsid=0b8b15f516291543887145098ebaec&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_",
+            "traceInfo": {
+                "displayCategoryId": "202005969",
+                "algo_pvid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357",
+                "postCategoryId": "200003384",
+                "ownerMemberId": "cn1510431911",
+                "algo_expid": "75ac0f80-01ea-43f3-a9de-8fa5f52a8357-49"
+            },
+            "price": "602,08 руб.",
+            "imageUrl": "//ae04.alicdn.com/kf/Hb43e325c796c41789bec8032d6c67922D/Foldable-Laptop-Stand-Aluminium-Notebook-Stand-Portable-Laptop-Holder-Tablet-Stand-Computer-Support-For-MacBook-Air.jpg_220x220xz.jpg",
+            "starRating": "4.9",
+            "productType": "ordinary_product"
+        }
+    ],
+    "refineCategory": [
+        {
+            "categoryEnName": "Computer & Office",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000006",
+            "childCategories": [
+                {
+                    "categoryEnName": "Tablets & e-Books Case",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202004360",
+                    "categoryName": "Чехлы для планшетов и электронных книг",
+                    "leafCategory": true,
+                    "categoryId": 202004360
+                },
+                {
+                    "categoryEnName": "Tablets",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202060516",
+                    "categoryName": "Планшеты",
+                    "leafCategory": true,
+                    "categoryId": 202060516
+                },
+                {
+                    "categoryEnName": "Tablet Stands",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202004582",
+                    "categoryName": "Подставки для планшетов",
+                    "leafCategory": true,
+                    "categoryId": 202004582
+                },
+                {
+                    "categoryEnName": "Tablet Screen Protectors",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202005338",
+                    "categoryName": "Защитные экраны для планшеов",
+                    "leafCategory": true,
+                    "categoryId": 202005338
+                },
+                {
+                    "categoryEnName": "Tablet Touch Pens",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202004364",
+                    "categoryName": "Стилусы для планшетов",
+                    "leafCategory": true,
+                    "categoryId": 202004364
+                },
+                {
+                    "categoryEnName": "Keyboards",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000563",
+                    "categoryName": "Клавиатуры",
+                    "leafCategory": true,
+                    "categoryId": 202000563
+                },
+                {
+                    "categoryEnName": "USB Hubs",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202001167",
+                    "categoryName": "USB-хабы",
+                    "leafCategory": true,
+                    "categoryId": 202001167
+                },
+                {
+                    "categoryEnName": "Tablet Decals",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202004361",
+                    "categoryName": "Наклейки для планшетов",
+                    "leafCategory": true,
+                    "categoryId": 202004361
+                }
+            ],
+            "categoryName": "Компьютеры и офис",
+            "leafCategory": false,
+            "categoryId": 202000006
+        },
+        {
+            "categoryEnName": "Cellphones & Telecommunications",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000054",
+            "categoryName": "Мобильные телефоны и аксессуары",
+            "leafCategory": false,
+            "categoryId": 202000054
+        },
+        {
+            "categoryEnName": "Automobiles & Motorcycles",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000015",
+            "categoryName": "Автомобили и мотоциклы",
+            "leafCategory": false,
+            "categoryId": 202000015
+        },
+        {
+            "categoryEnName": "Consumer Electronics",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000020",
+            "childCategories": [
+                {
+                    "categoryEnName": "Earphones & Headphones",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000540",
+                    "categoryName": "Наушники и гарнитуры",
+                    "leafCategory": true,
+                    "categoryId": 202000540
+                },
+                {
+                    "categoryEnName": "Phone Earphones & Headphones",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202060549",
+                    "categoryName": "Гарнитуры для телефона",
+                    "leafCategory": true,
+                    "categoryId": 202060549
+                },
+                {
+                    "categoryEnName": "Earphones",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202060581",
+                    "categoryName": "Вкладыши и внутриканальные",
+                    "leafCategory": true,
+                    "categoryId": 202060581
+                },
+                {
+                    "categoryEnName": "Bluetooth Earphones & Headphones",
+                    "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202060488",
+                    "categoryName": "Беспроводные наушники",
+                    "leafCategory": true,
+                    "categoryId": 202060488
+                }
+            ],
+            "categoryName": "Электроника",
+            "leafCategory": false,
+            "categoryId": 202000020
+        },
+        {
+            "categoryEnName": "Tools",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000186",
+            "categoryName": "Инструменты",
+            "leafCategory": false,
+            "categoryId": 202000186
+        },
+        {
+            "categoryEnName": "Electronic Components & Supplies",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000051",
+            "categoryName": "Электронные компоненты и принадлежности",
+            "leafCategory": false,
+            "categoryId": 202000051
+        },
+        {
+            "categoryEnName": "Luggage & Bags",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000224",
+            "categoryName": "Багаж и сумки",
+            "leafCategory": false,
+            "categoryId": 202000224
+        },
+        {
+            "categoryEnName": "Home & Garden",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000008",
+            "categoryName": "Дом и сад",
+            "leafCategory": false,
+            "categoryId": 202000008
+        },
+        {
+            "categoryEnName": "Beauty & Health",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000021",
+            "categoryName": "Красота и здоровье",
+            "leafCategory": false,
+            "categoryId": 202000021
+        },
+        {
+            "categoryEnName": "Education & Office Supplies",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000011",
+            "categoryName": "Канцтовары для офиса и дома",
+            "leafCategory": false,
+            "categoryId": 202000011
+        },
+        {
+            "categoryEnName": "Home Improvement",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000007",
+            "categoryName": "Обустройство дома",
+            "leafCategory": false,
+            "categoryId": 202000007
+        },
+        {
+            "categoryEnName": "Toys & Hobbies",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000013",
+            "categoryName": "Игрушки и хобби",
+            "leafCategory": false,
+            "categoryId": 202000013
+        },
+        {
+            "categoryEnName": "Sports & Entertainment",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000010",
+            "categoryName": "Спорт и развлечения",
+            "leafCategory": false,
+            "categoryId": 202000010
+        },
+        {
+            "categoryEnName": "Security & Protection",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000014",
+            "categoryName": "Безопасность и защита",
+            "leafCategory": false,
+            "categoryId": 202000014
+        },
+        {
+            "categoryEnName": "Lights & Lighting",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000016",
+            "categoryName": "Лампы и освещение",
+            "leafCategory": false,
+            "categoryId": 202000016
+        },
+        {
+            "categoryEnName": "Furniture",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000216",
+            "categoryName": "Мебель",
+            "leafCategory": false,
+            "categoryId": 202000216
+        },
+        {
+            "categoryEnName": "Home Appliances",
+            "categoryUrl": "//aliexpress.ru/w/wholesale-ipad-pro.html?CatId=202000005",
+            "categoryName": "Бытовая техника",
+            "leafCategory": false,
+            "categoryId": 202000005
+        }
+    ],
+    "resultType": "normal_result"
 }

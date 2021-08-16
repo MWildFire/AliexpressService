@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\rservice.proto\"-\n\rSearchRequest\x12\x0b\n\x03url\x18\x01 \x01(\t\x12\x0f\n\x07proxies\x18\x02 \x03(\t\"f\n\x0cResponseItem\x12\r\n\x05title\x18\x01 \x01(\t\x12\x0c\n\x04\x64\x65sc\x18\x02 \x01(\t\x12\x0b\n\x03url\x18\x03 \x01(\t\x12\r\n\x05price\x18\x04 \x01(\t\x12\x0e\n\x06rating\x18\x05 \x01(\t\x12\r\n\x05query\x18\x06 \x01(\t\"D\n\x14SearchResponseStream\x12\r\n\x05query\x18\x01 \x01(\t\x12\x1d\n\x06result\x18\x02 \x03(\x0b\x32\r.ResponseItem2D\n\rSearchService\x12\x33\n\x06Search\x12\x0e.SearchRequest\x1a\x15.SearchResponseStream(\x01\x30\x01\x62\x06proto3'
+  serialized_pb=b'\n\rservice.proto\">\n\rSearchRequest\x12\r\n\x05query\x18\x01 \x01(\t\x12\r\n\x05pages\x18\x02 \x01(\r\x12\x0f\n\x07proxies\x18\x03 \x03(\t\"G\n\x0cResponseItem\x12\r\n\x05title\x18\x01 \x01(\t\x12\x0c\n\x04\x64\x65sc\x18\x02 \x01(\t\x12\x0b\n\x03url\x18\x03 \x01(\t\x12\r\n\x05price\x18\x04 \x01(\t\"R\n\x14SearchResponseStream\x12\r\n\x05query\x18\x01 \x01(\t\x12\x0c\n\x04page\x18\x02 \x01(\r\x12\x1d\n\x06result\x18\x03 \x03(\x0b\x32\r.ResponseItem2B\n\rSearchService\x12\x31\n\x06Search\x12\x0e.SearchRequest\x1a\x15.SearchResponseStream0\x01\x62\x06proto3'
 )
 
 
@@ -34,15 +34,22 @@ _SEARCHREQUEST = _descriptor.Descriptor(
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='url', full_name='SearchRequest.url', index=0,
+      name='query', full_name='SearchRequest.query', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='proxies', full_name='SearchRequest.proxies', index=1,
-      number=2, type=9, cpp_type=9, label=3,
+      name='pages', full_name='SearchRequest.pages', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='proxies', full_name='SearchRequest.proxies', index=2,
+      number=3, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -60,7 +67,7 @@ _SEARCHREQUEST = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=17,
-  serialized_end=62,
+  serialized_end=79,
 )
 
 
@@ -100,20 +107,6 @@ _RESPONSEITEM = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
-    _descriptor.FieldDescriptor(
-      name='rating', full_name='ResponseItem.rating', index=4,
-      number=5, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=b"".decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
-    _descriptor.FieldDescriptor(
-      name='query', full_name='ResponseItem.query', index=5,
-      number=6, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=b"".decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
   ],
   extensions=[
   ],
@@ -126,8 +119,8 @@ _RESPONSEITEM = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=64,
-  serialized_end=166,
+  serialized_start=81,
+  serialized_end=152,
 )
 
 
@@ -147,8 +140,15 @@ _SEARCHRESPONSESTREAM = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='result', full_name='SearchResponseStream.result', index=1,
-      number=2, type=11, cpp_type=10, label=3,
+      name='page', full_name='SearchResponseStream.page', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='result', full_name='SearchResponseStream.result', index=2,
+      number=3, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -165,7 +165,7 @@ _SEARCHRESPONSESTREAM = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=168,
+  serialized_start=154,
   serialized_end=236,
 )
 
@@ -206,7 +206,7 @@ _SEARCHSERVICE = _descriptor.ServiceDescriptor(
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
   serialized_start=238,
-  serialized_end=306,
+  serialized_end=304,
   methods=[
   _descriptor.MethodDescriptor(
     name='Search',

@@ -14,7 +14,7 @@ class SearchServiceStub(object):
         Args:
             channel: A grpc.Channel.
         """
-        self.Search = channel.stream_stream(
+        self.Search = channel.unary_stream(
                 '/SearchService/Search',
                 request_serializer=service__pb2.SearchRequest.SerializeToString,
                 response_deserializer=service__pb2.SearchResponseStream.FromString,
@@ -24,7 +24,7 @@ class SearchServiceStub(object):
 class SearchServiceServicer(object):
     """Missing associated documentation comment in .proto file."""
 
-    def Search(self, request_iterator, context):
+    def Search(self, request, context):
         """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
@@ -33,7 +33,7 @@ class SearchServiceServicer(object):
 
 def add_SearchServiceServicer_to_server(servicer, server):
     rpc_method_handlers = {
-            'Search': grpc.stream_stream_rpc_method_handler(
+            'Search': grpc.unary_stream_rpc_method_handler(
                     servicer.Search,
                     request_deserializer=service__pb2.SearchRequest.FromString,
                     response_serializer=service__pb2.SearchResponseStream.SerializeToString,
@@ -49,7 +49,7 @@ class SearchService(object):
     """Missing associated documentation comment in .proto file."""
 
     @staticmethod
-    def Search(request_iterator,
+    def Search(request,
             target,
             options=(),
             channel_credentials=None,
@@ -59,7 +59,7 @@ class SearchService(object):
             wait_for_ready=None,
             timeout=None,
             metadata=None):
-        return grpc.experimental.stream_stream(request_iterator, target, '/SearchService/Search',
+        return grpc.experimental.unary_stream(request, target, '/SearchService/Search',
             service__pb2.SearchRequest.SerializeToString,
             service__pb2.SearchResponseStream.FromString,
             options, channel_credentials,

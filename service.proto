@@ -1,8 +1,9 @@
 syntax = "proto3";
 
 message SearchRequest {
-  string url = 1;
-  repeated string proxies = 2;
+  string query = 1;
+  uint32 pages = 2;
+  repeated string proxies = 3;
 }
 
 message ResponseItem {
@@ -10,16 +11,15 @@ message ResponseItem {
   string desc = 2;
   string url = 3;
   string price = 4;
-  string rating = 5;
-  string query = 6;
 }
 
 message SearchResponseStream {
   string query = 1;
-  repeated ResponseItem result = 2;
+  uint32 page = 2;
+  repeated ResponseItem result = 3;
 }
 
 
 service SearchService {
-  rpc Search(stream SearchRequest) returns (stream SearchResponseStream);
+  rpc Search(SearchRequest) returns (stream SearchResponseStream);
 }

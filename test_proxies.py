@@ -1,19 +1,30 @@
-from scrape import proxs
+from helper import proxs
 import requests
 import concurrent.futures
-import socks
-import socket
+import asyncio
+import aiohttp
+from aiohttp_socks import ProxyType, ProxyConnector, ChainProxyConnector
+import random
+import time
 
 
-def extract(proxy):
-    try:
-        print(proxy)
-        r = requests.get('https://httpbin.org/ip', proxies={'http': f"socks5://{proxy}", 'https': f"socks5://{proxy}"})
-        print(r.json(), ' - working')
-    except:
-        pass
-    return proxy
+async def fetch(url):
+    connector = ProxyConnector()
+    socks = random.choice(proxs)
+    async with aiohttp.ClientSession(connector=connector) as session:
+        async with session.get(url, proxy=socks) as response:
+            print(await response.text())
 
 
-with concurrent.futures.ThreadPoolExecutor() as exector:
-    exector.map(extract, proxs)
+async def prox_test(proxy):
+    socks = proxy
+    print(socks)
+    connector = ProxyConnector(proxy_type=ProxyType.SOCKS5,
+                               host=proxy.split(':')[0],
+                               port=proxy.split(':')[1]
+                               )
+    async with aiohttp.ClientSession(connector=connector) as session:
+        async with session.get('https://httpbin.org/ip') as response:
+            print(await response.json(), '- working')
+
+

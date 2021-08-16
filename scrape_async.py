@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup as bs
 import json
 import random
+import aiohttp
+import asyncio
 from helper import proxs, get_cookies
 from aiohttp_socks import ProxyType, ProxyConnector
 import time
@@ -12,7 +14,7 @@ header = {
 }
 
 
-def get_page_html(page: int, product: str, proxies: list):
+async def get_page_html(page: int, product: str, proxies: list):
     """
     Функция принимает номер страницы и наименование продукта и возвращает HTML(строковый объект) из которого можно достать все продукты
     :param page: Номер страницы
@@ -22,48 +24,41 @@ def get_page_html(page: int, product: str, proxies: list):
     url = f"https://aliexpress.ru/af/{product.replace(' ', '-')}.html?trafficChannel=af&d=y&SearchText={product.replace(' ', '+')}&ltype=affiliate&SortType=default&page={page}&CatId=0"
     try:
         proxy = random.choice(proxies)  # Случайный прокси для обхода блокировки
-        response = requests.get(url=url,cookies=get_cookies(), headers=header,proxies={'htttp' : f'socks5://{proxy}', 'htttps' : f'socks5://{proxy}'})
-        response.raise_for_status()
-        print(response.text)
-        print(response)
-        print(response.text)
-        print(f"{url} {response.status_code}")
+        connector = ProxyConnector(proxy_type=ProxyType.SOCKS5,
+                                   host=proxy.split(':')[0],
+                                   port=proxy.split(':')[1]
+                                   )
+        async with aiohttp.ClientSession(connector=connector) as session:
 
-        return response.text
-    except Exception as e:
-        print(e)
-        return ''
+            async with session.get(url=url,
+                                   cookies=get_cookies(),
+                                   headers=header) as response:  # Отправляем GET запрос
+                response.raise_for_status()
+                print(f"Response status ({url}): {response.status}")
+                return await response.text()
+    except Exception as err:
+        print(f"An error ocurred: {err}")
 
 
-def parse_links(page: int, product: str, proxies: list = proxs):
+async def parse_links(page: int, product: str, proxies: list = proxs):
     """
     Принимает HTML документ со страницей после поиска и формирует список URL ссылок на товары
     :param html: строковый объект HTML
     :return: список URL ссылок на товары (list)
     """
     prod_urls = []
-    html = get_page_html(page, product, proxies)
-    if len(html) == 0:
-        return []
+    html = await get_page_html(page, product, proxies)
     soup = bs(html, 'lxml')
     try:
-        script = soup.find_all('script', {'type':'text/javascript'})[5]
-    except IndexError:
-        return []
-    print(script)
-    try:
         # Получаем JSON объект в строковом виде из HTML разметки
-        items = str(script).split('window.runParams =')[2].split('};')[0]+'}'
-        print(items)
+        items = str(soup.find_all('script', {'type':'text/javascript'})[5]).split('window.runParams =')[2].split(';')[0]
     except:
         print('Здесь ошибка')
-        return []
-
+        return
     with open('items.json', 'w', encoding='utf-8') as json_write:
         obj = json.loads(items)
         json.dump(obj, json_write, ensure_ascii=False, indent=4)
         try:
-            print('Ищем ссылки по JSON')
             for item in obj['items']:
                 product_url = item['productDetailUrl'].replace('//', 'https://', 1)
                 prod_urls.append(product_url)
@@ -73,7 +68,7 @@ def parse_links(page: int, product: str, proxies: list = proxs):
     return prod_urls
 
 
-def get_product_html(product_url , proxies: list):
+async def get_product_html(product_url , proxies: list):
     """
     Функция для получения HTML документа с товаром. Необходима для получения более предметной информации о товаре.
     :param product_url: URL ссылка на товар
@@ -82,25 +77,28 @@ def get_product_html(product_url , proxies: list):
     url = product_url
     try:
         proxy = random.choice(proxies)  # Случайный прокси для обхода блокировки
-        response = requests.get(url=url, cookies=get_cookies(), headers=header,
-                                proxies={'htttp': f'socks5://{proxy}', 'htttps': f'socks5://{proxy}'})
-        response.raise_for_status()
-        print(f"{url} {response.status_code}")
-        return response.text
-    except Exception as e:
-        print(e)
-        return ''
+        connector = ProxyConnector(proxy_type=ProxyType.SOCKS5,
+                                   host=proxy.split(':')[0],
+                                   port=proxy.split(':')[1]
+                                   )
+        async with aiohttp.ClientSession(connector=connector) as session:
+            async with session.get(url=url,
+                                   cookies=get_cookies(),
+                                   headers=header) as response:  # Отправляем GET запрос
+                response.raise_for_status()
+                print(f"Response status ({url}): {response.status}")
+                return await response.text()
+    except Exception as err:
+        print(f"An error ocurred: {err}")
 
 
-def parse_product(product_url: str, proxies: list = proxs):
+async def parse_product(product_url: str, proxies: list = proxs):
     """
     Функция для парсинга страницы с товаром. Используется стандартный метод find
     :param html: HTML документ (str)
     :return: словарь с ключевыми данными о товаре (dict)
     """
-    html = get_product_html(product_url, proxies)
-    if len(html) == 0:
-        return []
+    html = await get_product_html(product_url, proxies)
     soup = bs(html, 'lxml')
 
     # Парсим страничку с продуктом
@@ -110,9 +108,7 @@ def parse_product(product_url: str, proxies: list = proxs):
             raise IndexError
     except IndexError:
         script = soup.findAll('script')[14]
-    print(script)
-    str_data = str(script).split('window.runParams = ')[1].split('};')[0].split('data:')[1].split(',"shippingModule":{')[0]+'}'
-
+    str_data = str(script).split('window.runParams = ')[1].split(';')[0].split('data:')[1].split(',"shippingModule":{')[0]+'}'
 
     with open('product_data_test.json', 'w', encoding='utf-8') as w_f:
         data = json.loads(str_data)
@@ -130,4 +126,27 @@ def parse_product(product_url: str, proxies: list = proxs):
         'url': link
     }
 
+"""
+if __name__ == '__main__':
+    loop = asyncio.get_event_loop()
 
+    prod_urls = loop.run_until_complete(parse_product('https://aliexpress.ru/item/1005001625499669.html?s=p&ad_pvid=20210816085716690131346798440022207110_1&algo_pvid=597a805f-c100-4076-ac1e-1711e45c95ed&algo_expid=597a805f-c100-4076-ac1e-1711e45c95ed-0&btsid=0b8b15cb16291294363335330eda1a&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_'))
+
+    print(prod_urls)
+
+
+
+async def main():
+
+    print("Creating new task")
+    urls = await asyncio.gather(*[parse_links(i, 'чехол iphone') for i in range(1, 3)])
+    #  urls = await parse_links(1, 'чехол iphone')
+    print(await asyncio.gather(*[parse_product(url) for url in urls[1][:5]]))
+
+
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
+
+"""

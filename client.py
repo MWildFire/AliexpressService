@@ -8,7 +8,7 @@ import argparse
 
 class UnaryClient(object):
     """
-    Client for gRPC functionality
+    Клиент gRPC
     """
 
     def __init__(self):
@@ -24,7 +24,7 @@ class UnaryClient(object):
 
     def get_url(self, query: str, pages: int, proxies = proxs):
         """
-        Client function to call the rpc for SearchRequest
+        Клиент функция для запроса на gRPC сервер
         """
         message = service_pb2.SearchRequest(query=query, pages=pages, proxies=proxs)
         print(f'{message}')

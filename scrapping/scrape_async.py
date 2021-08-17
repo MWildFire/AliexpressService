@@ -1,12 +1,9 @@
-import requests
 from bs4 import BeautifulSoup as bs
 import json
 import random
 import aiohttp
-import asyncio
 from helper import proxs, get_cookies
 from aiohttp_socks import ProxyType, ProxyConnector
-import time
 
 # Заголовки для GET запросов
 header = {
@@ -55,7 +52,7 @@ async def parse_links(page: int, product: str, proxies: list = proxs):
     except:
         print('Здесь ошибка')
         return
-    with open('items.json', 'w', encoding='utf-8') as json_write:
+    with open('../items.json', 'w', encoding='utf-8') as json_write:
         obj = json.loads(items)
         json.dump(obj, json_write, ensure_ascii=False, indent=4)
         try:
@@ -110,7 +107,7 @@ async def parse_product(product_url: str, proxies: list = proxs):
         script = soup.findAll('script')[14]
     str_data = str(script).split('window.runParams = ')[1].split(';')[0].split('data:')[1].split(',"shippingModule":{')[0]+'}'
 
-    with open('product_data_test.json', 'w', encoding='utf-8') as w_f:
+    with open('../product_data_test.json', 'w', encoding='utf-8') as w_f:
         data = json.loads(str_data)
         json.dump(data, w_f, ensure_ascii=False, indent=4)
 

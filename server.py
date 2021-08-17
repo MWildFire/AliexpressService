@@ -1,8 +1,7 @@
 from concurrent import futures
 import grpc
-import service_pb2
-import service_pb2_grpc
-from scrape import parse_links, parse_product
+from generated import service_pb2, service_pb2_grpc
+from scrapping.scrape import parse_links, parse_product
 
 
 class Listener(service_pb2_grpc.SearchServiceServicer):
@@ -11,14 +10,14 @@ class Listener(service_pb2_grpc.SearchServiceServicer):
 
         response = service_pb2.SearchResponseStream()
         resp_item = service_pb2.ResponseItem()
-        print(request)
-        print(request.query)
         for j in range(1, request.pages+1):
-            list_links = parse_links(product=request.query, page=j)
+            list_links = parse_links(product=request.query, page=j, proxies=request.proxies)
             print(len(list_links))
 
             for i in range(len(list_links)):
                 data = parse_product(list_links[i])
+                if type(data) == list:
+                    yield response
                 # print(data)
                 resp_item.title = data['title']
                 resp_item.desc = data['desc']
@@ -28,7 +27,7 @@ class Listener(service_pb2_grpc.SearchServiceServicer):
                 response.page = request.pages
                 print(resp_item)
                 response.result.append(resp_item)
-            yield response
+                yield response
 
 
 def serve():

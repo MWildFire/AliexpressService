@@ -3,8 +3,6 @@ from bs4 import BeautifulSoup as bs
 import json
 import random
 from helper import proxs, get_cookies
-from aiohttp_socks import ProxyType, ProxyConnector
-import time
 
 # Заголовки для GET запросов
 header = {
@@ -24,8 +22,6 @@ def get_page_html(page: int, product: str, proxies: list):
         proxy = random.choice(proxies)  # Случайный прокси для обхода блокировки
         response = requests.get(url=url,cookies=get_cookies(), headers=header,proxies={'htttp' : f'socks5://{proxy}', 'htttps' : f'socks5://{proxy}'})
         response.raise_for_status()
-        print(response.text)
-        print(response)
         print(response.text)
         print(f"{url} {response.status_code}")
 
@@ -59,7 +55,7 @@ def parse_links(page: int, product: str, proxies: list = proxs):
         print('Здесь ошибка')
         return []
 
-    with open('items.json', 'w', encoding='utf-8') as json_write:
+    with open('../items.json', 'w', encoding='utf-8') as json_write:
         obj = json.loads(items)
         json.dump(obj, json_write, ensure_ascii=False, indent=4)
         try:
@@ -99,35 +95,45 @@ def parse_product(product_url: str, proxies: list = proxs):
     :return: словарь с ключевыми данными о товаре (dict)
     """
     html = get_product_html(product_url, proxies)
+
     if len(html) == 0:
         return []
     soup = bs(html, 'lxml')
+    if len(soup.findAll('script')) > 10:
+        # Парсим страничку с продуктом
+        try:
+            script = soup.findAll('script')[13]
+            print(script)
+            if len(str(script)) < 100:
+                raise IndexError
+        except IndexError:
+            script = soup.findAll('script')[15]
 
-    # Парсим страничку с продуктом
-    try:
-        script = soup.findAll('script')[13]
-        if len(str(script)) < 100:
-            raise IndexError
-    except IndexError:
-        script = soup.findAll('script')[14]
-    print(script)
-    str_data = str(script).split('window.runParams = ')[1].split('};')[0].split('data:')[1].split(',"shippingModule":{')[0]+'}'
+
+        str_data = str(script).split('window.runParams = ')[1].split('};')[0].split('data:')[1].split(',"shippingModule":{')[0]+'}'
 
 
-    with open('product_data_test.json', 'w', encoding='utf-8') as w_f:
-        data = json.loads(str_data)
-        json.dump(data, w_f, ensure_ascii=False, indent=4)
+        with open('../product_data_test.json', 'w', encoding='utf-8') as w_f:
+            data = json.loads(str_data)
+            json.dump(data, w_f, ensure_ascii=False, indent=4)
 
-    price = data["priceModule"]["formatedPrice"]
-    title = data["pageModule"]["title"]
-    desc = data["pageModule"]["description"]
-    link = data["pageModule"]["mSiteUrl"]
+        price = data["priceModule"]["formatedPrice"]
+        title = data["pageModule"]["title"]
+        desc = data["pageModule"]["description"]
+        link = data["pageModule"]["mSiteUrl"]
 
-    return {
-        'title': title,
-        'desc': desc,
-        'price': price,
-        'url': link
-    }
-
+        return {
+            'title': title,
+            'desc': desc,
+            'price': price,
+            'url': link
+        }
+    else:
+        print(soup)
+        return {
+            'title': soup.find('div', {'class': 'Product_Name__container__hntp3'}).text,
+            'desc': soup.find('div', {'class': 'ProductDescription-module_content__1xpeo'}).text,
+            'price': soup.find('div', {'class': 'Product_Price__container__1uqb8 product-price'}).text,
+            'url': product_url
+        }
 

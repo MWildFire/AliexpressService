@@ -1,0 +1,46 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.aliexpress.ru	TRUE	/	FALSE	1944218807	e_id	pt60
+.aliexpress.ru	TRUE	/	FALSE	1636634811	_gcl_au	1.1.1368874157.1628858811
+.aliexpress.ru	TRUE	/	TRUE	2259578811	cna	u1edGSBEvmcCAW38SPUFQk+S
+.aliexpress.ru	TRUE	/	FALSE	1629153668	_gid	GA1.2.1027094135.1628858811
+.aliexpress.ru	TRUE	/	TRUE	1660394811	_ym_uid	1628858811323684854
+.aliexpress.ru	TRUE	/	TRUE	1660394811	_ym_d	1628858811
+.aliexpress.ru	TRUE	/	FALSE	1657838467	tmr_lvid	3308c518d261c82774942f7cabeef108
+.aliexpress.ru	TRUE	/	FALSE	1657838467	tmr_lvidTS	1628858811314
+.aliexpress.ru	TRUE	/	FALSE	1636843269	_fbp	fb.1.1628858811524.191718407
+aliexpress.ru	FALSE	/	FALSE	1644410852	_bl_uid	mLk0OssCa8Ocvtigg6XyaIqkqjs0
+best.aliexpress.ru	FALSE	/	FALSE	1644439092	_bl_uid	4ekR7s5waaht4wb70gRO6tLsOLy6
+.aliexpress.ru	TRUE	/	FALSE	1663062483	cto_bundle	7p6QIV9CNkt1R3dLUDRET2E5Ym1kVFkyc1U0QmU0SjglMkJlREFTaUJmSVJ1b0FBQWE0eE05M0k0ajVLR2UzMXYwcWUzWndRa3NRZTV2MzlDaXVtSEdFRXBVcUFzVkNFOW9KcW9uU3pWTlVXeW9reDdNUlg3SFVqR3czNnZEJTJGQ3h2dGlkbDNQZnpvVkFLbHdQdkZmQmhxOVBjcDNBJTNEJTNE
+.aliexpress.ru	TRUE	/	TRUE	1629103480	_ym_isad	2
+aliexpress.ru	FALSE	/	FALSE	1629117883	tmr_detect	0%7C1629031483609
+.aliexpress.ru	TRUE	/	TRUE	1629069067	_ym_visorc	b
+.aliexpress.ru	TRUE	/	TRUE	1629670729	_m_h5_tk	409c5b4f0aa83cdbec8cca7acb3d8c87_1629067818991
+.aliexpress.ru	TRUE	/	TRUE	1629670729	_m_h5_tk_enc	941c916aee44b9764f662324ec6c7770
+.aliexpress.ru	TRUE	/	TRUE	1629152330	xlly_s	1
+.aliexpress.ru	TRUE	/	TRUE	3776549690	aep_common_f	8FE9lpUiwbWODOtSEsOwRGWz4Vb+FneLJHwYckET9V7b8NqAHcZLZg==
+login.aliexpress.ru	FALSE	/	FALSE	1644618075	_bl_uid	Unk9gsU8dgwrO5vhaoRUcykuIXI3
+trade.aliexpress.ru	FALSE	/	FALSE	1629152910	tmr_detect	0%7C1629066510483
+home.aliexpress.ru	FALSE	/	FALSE	1629153263	tmr_detect	0%7C1629066863873
+mbest.aliexpress.ru	FALSE	/	FALSE	1644619129	_bl_uid	3FkIpsk6d3ks5giXF9XkkLX4s6zL
+mbest.aliexpress.ru	FALSE	/	FALSE	1629153609	tmr_detect	0%7C1629067209731
+.aliexpress.ru	TRUE	/	FALSE	0	intl_locale	ru_RU
+login.aliexpress.ru	FALSE	/	FALSE	0	JSESSIONID	B73A70796483EB93FAAB994851C4EE1A
+.aliexpress.ru	TRUE	/	TRUE	0	aep_usuc_t	ber_l=A0
+.aliexpress.ru	TRUE	/	TRUE	0	bx_s_t	z/+/xobsXzqxj9w56Z+rdoLKK9qTqtVBdZjkFTaTlBxLwVpwrIBvSymjID1b0bNXS/V8cBytbVHwhIdVjuB5/tWcDQqvzG8n1uPn+GAcMHc=
+.aliexpress.ru	TRUE	/	TRUE	3776550912	xman_f	+0eihuzhff/3Ow72652ZjE6h+30d8RVGmzB/PqqURCDDV3/nE0u6ox/BjAJhqcqh/0D9wzTZ0eWcjmOv8Za45pIoV6Q4KMLSWKQDaBw5UJdrU3p5XqG1XfeyuubXMNfdGukpvJC5CArcwiCqhxsDWJilnfVQIKUIn206XuEC+eTSC3HX3mvmslT7G4/WsMyjC0X9pJx3g4K+cYZyT4O+S5sJljxQ0O0Y+qcjxC9H78gjps3xX68gO+mnVhq7avpj+JhGTSV/kpx4SfOwk51JQyI5p4nKgfhabCryas9Z3K2C36amnnHg4ad4bG5pOyxovA9NWRTZ2OcoU/tPg7ANacDYee8rfbukyVAVT2fASir3Vzud8Y7Ll5XCWxCM49a2sCeL1zBlzsG8dM4HUSkkb2MWavl8HIeiiHD2F2HUxop0oDsaMGB1IA==
+.aliexpress.ru	TRUE	/	TRUE	3776551126	xman_us_f	x_locale=ru_RU&x_l=0&last_popup_time=1629066043063&x_user=RU|Dmitry|Surkov|ifm|732868314&no_popup_today=n&x_lid=ru1113253348yybs&x_c_chg=0&x_c_synced=0&x_as_i=%7B%22aeuCID%22%3A%22dcad64475153411cbca68d94403f5757-1629066735557-02067-cD4TW1tW%22%2C%22af%22%3A%22177836407%22%2C%22channel%22%3A%22AFFILIATE%22%2C%22cookieCacheEffectTime%22%3A1629067395602%2C%22isCookieCache%22%3A%22Y%22%2C%22ms%22%3A%220%22%2C%22pid%22%3A%22177836407%22%2C%22tagtime%22%3A1629066735557%7D&acs_rt=772331bade4e4b51a68eff6527bb9201
+.aliexpress.ru	TRUE	/	TRUE	3776551126	aep_usuc_f	isfm=y&site=rus&c_tp=RUB&x_alimid=732868314&isb=y&region=RU&b_locale=ru_RU
+.aliexpress.ru	TRUE	/	FALSE	1692139268	_ga	GA1.1.1401249415.1628858811
+.aliexpress.ru	TRUE	/	FALSE	1692139268	_ga_VED1YSGNC7	GS1.1.1629065930.2.1.1629067268.0
+best.aliexpress.ru	FALSE	/	FALSE	1629153670	tmr_detect	0%7C1629067270164
+.aliexpress.ru	TRUE	/	TRUE	0	acs_usuc_t	x_csrf=14swel9d2dgk9&acs_rt=90c86906556e48ba87792a23a2bcc091
+.aliexpress.ru	TRUE	/	TRUE	1636843271	xman_t	VgCy8VgPcz3dF8hTo/T4r2NhBTuz84iEf4q0+gbrL7hCavfB1ao17ulQmyv12PNt
+.aliexpress.ru	TRUE	/	FALSE	1657838467	tmr_reqNum	348
+.aliexpress.ru	TRUE	/	FALSE	1644619267	tfstk	c2AGBb6nLdW1VRBHFf167CadAh0RaiFVqIRBTIpYK4sJ7fRc7sXbL8-Mv2jMjIef.
+.aliexpress.ru	TRUE	/	TRUE	1644619267	isg	BAUFd0P_yJ3r8OzOHqBCKGXrFEE_wrlURQ5EYAdrXDxLniYQzxKrJZw8rNpogdEM
+.aliexpress.ru	TRUE	/	FALSE	1644619267	l	eBge4nrVgN3SySDDBO5ZKurza77OgIdf15FzaNbMiInca6GNsFGuGOCKCswM-dtjQtCfZetrSSYwjRBQu3UdaxDDBebwgtotDxvO.
+best.aliexpress.ru	FALSE	/	FALSE	0	JSESSIONID	DA007A9B4A025DCC6C75B31C00C77B63
+.aliexpress.ru	TRUE	/	FALSE	3776551126	intl_common_forever	x1IJ+d2sI0NDQ6dnGcY9ss9qPt5slIAInq9y7LChVisZJoFD5JcPgw==

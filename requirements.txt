@@ -4,3 +4,4 @@ requests_html
 aiohttp
 asyncio
 PySocks
+flask

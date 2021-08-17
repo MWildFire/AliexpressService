@@ -1,11 +1,7 @@
 from helper import proxs
-import requests
-import concurrent.futures
-import asyncio
 import aiohttp
-from aiohttp_socks import ProxyType, ProxyConnector, ChainProxyConnector
+from aiohttp_socks import ProxyType, ProxyConnector
 import random
-import time
 
 
 async def fetch(url):

@@ -1,9 +1,9 @@
 import json
-
-import service_pb2
-import service_pb2_grpc
+from helper import proxs
+from generated import service_pb2, service_pb2_grpc
 import grpc
 from google.protobuf.json_format import MessageToJson
+import argparse
 
 
 class UnaryClient(object):
@@ -22,11 +22,11 @@ class UnaryClient(object):
         # bind the client and the server
         self.stub = service_pb2_grpc.SearchServiceStub(channel = self.channel)
 
-    def get_url(self, query: str, pages: int):
+    def get_url(self, query: str, pages: int, proxies = proxs):
         """
-        Client function to call the rpc for GetServerResponse
+        Client function to call the rpc for SearchRequest
         """
-        message = service_pb2.SearchRequest(query=query, pages=pages)
+        message = service_pb2.SearchRequest(query=query, pages=pages, proxies=proxs)
         print(f'{message}')
         json_obj = None
         for r in self.stub.Search(message):
@@ -37,14 +37,23 @@ class UnaryClient(object):
             json_obj['result'][i]['desc'] = json_obj['result'][i]['desc'].encode('utf-8').decode('utf-8')
             json_obj['result'][i]['url'] = json_obj['result'][i]['url'].encode('utf-8').decode('utf-8')
             json_obj['result'][i]['price'] = json_obj['result'][i]['price'].encode('utf-8').decode('utf-8')
-        with open('grpc_service.json', 'w', encoding='utf-8') as w_f:
-            json.dump(json_obj, w_f, ensure_ascii=False, indent=4)
-            print(json_obj)
-        return
+            with open('grpc_service.json', 'w', encoding='utf-8') as w_f:
+                json.dump(json_obj, w_f, ensure_ascii=False, indent=4)
+                print(json_obj)
+        return json_obj
 
 
-if __name__ == '__main__':
-    client = UnaryClient()
-    result = client.get_url(query='ipad pro', pages=1)
+parser = argparse.ArgumentParser(description='Test')
+parser.add_argument("--q", type=str, help="Query for AliExpress parsing")
+parser.add_argument("--p", type=int, help="Quantity of parsing pages")
+parser.add_argument("--prox", type=list, help="Proxie list", default=None)
+args = parser.parse_args()
+client = UnaryClient()
+print('Создан объект')
+
+if args.prox:
+    result = client.get_url(query=args.q, pages=args.p, proxies=args.prox)
+else:
+    result = client.get_url(query=args.q, pages=args.p)
 
 

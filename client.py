@@ -1,6 +1,6 @@
 import json
 from helper import proxs
-from generated import service_pb2, service_pb2_grpc
+from generated import service_pb2_grpc, service_pb2
 import grpc
 from google.protobuf.json_format import MessageToJson
 import argparse
@@ -31,17 +31,18 @@ class UnaryClient(object):
         json_obj = None
         for r in self.stub.Search(message):
             json_obj = str(MessageToJson(r))
-        json_obj = json.loads(json_obj)
+            json_obj = json.loads(json_obj)
         for i in range(len(json_obj)):
             json_obj['result'][i]['title'] = json_obj['result'][i]['title'].encode('utf-8').decode('utf-8')
             json_obj['result'][i]['desc'] = json_obj['result'][i]['desc'].encode('utf-8').decode('utf-8')
             json_obj['result'][i]['url'] = json_obj['result'][i]['url'].encode('utf-8').decode('utf-8')
             json_obj['result'][i]['price'] = json_obj['result'][i]['price'].encode('utf-8').decode('utf-8')
-            with open('grpc_service.json', 'w', encoding='utf-8') as w_f:
+            with open('../grpc_service.json', 'w', encoding='utf-8') as w_f:
                 json.dump(json_obj, w_f, ensure_ascii=False, indent=4)
-                print(json_obj)
+
         return json_obj
 
+"""
 
 parser = argparse.ArgumentParser(description='Test')
 parser.add_argument("--q", type=str, help="Query for AliExpress parsing")
@@ -57,3 +58,4 @@ else:
     result = client.get_url(query=args.q, pages=args.p)
 
 
+"""

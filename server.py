@@ -1,6 +1,6 @@
 from concurrent import futures
 import grpc
-from generated import service_pb2, service_pb2_grpc
+from generated import service_pb2_grpc, service_pb2
 from scrapping.scrape import parse_links, parse_product
 
 

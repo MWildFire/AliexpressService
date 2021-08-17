@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import json
 import random
 import aiohttp
-from helper import proxs, get_cookies
+from grpc.helper import proxs, get_cookies
 from aiohttp_socks import ProxyType, ProxyConnector
 
 # Заголовки для GET запросов

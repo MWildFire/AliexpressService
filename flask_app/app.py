@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, make_response
 import json
 from helper import proxs
-from generated import service_pb2, service_pb2_grpc
+from generated import service_pb2_grpc, service_pb2
 import grpc
 from google.protobuf.json_format import MessageToJson
 

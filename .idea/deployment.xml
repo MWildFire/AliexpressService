@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@194.67.116.168:22 password" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="root@194.67.116.168:22">
         <serverdata>
@@ -12,7 +12,7 @@
       <paths name="root@194.67.116.168:22 (1)">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/Al" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
@@ -26,7 +26,7 @@
       <paths name="root@194.67.116.168:22 password">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/pycharm_project_165" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
@@ -38,5 +38,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

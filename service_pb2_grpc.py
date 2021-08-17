@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from protobufs import service_pb2 as protobufs_dot_service__pb2
+import service_pb2 as service__pb2
 
 
 class SearchServiceStub(object):
@@ -16,8 +16,8 @@ class SearchServiceStub(object):
         """
         self.Search = channel.unary_stream(
                 '/SearchService/Search',
-                request_serializer=protobufs_dot_service__pb2.SearchRequest.SerializeToString,
-                response_deserializer=protobufs_dot_service__pb2.SearchResponseStream.FromString,
+                request_serializer=service__pb2.SearchRequest.SerializeToString,
+                response_deserializer=service__pb2.SearchResponseStream.FromString,
                 )
 
 
@@ -35,8 +35,8 @@ def add_SearchServiceServicer_to_server(servicer, server):
     rpc_method_handlers = {
             'Search': grpc.unary_stream_rpc_method_handler(
                     servicer.Search,
-                    request_deserializer=protobufs_dot_service__pb2.SearchRequest.FromString,
-                    response_serializer=protobufs_dot_service__pb2.SearchResponseStream.SerializeToString,
+                    request_deserializer=service__pb2.SearchRequest.FromString,
+                    response_serializer=service__pb2.SearchResponseStream.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -60,7 +60,7 @@ class SearchService(object):
             timeout=None,
             metadata=None):
         return grpc.experimental.unary_stream(request, target, '/SearchService/Search',
-            protobufs_dot_service__pb2.SearchRequest.SerializeToString,
-            protobufs_dot_service__pb2.SearchResponseStream.FromString,
+            service__pb2.SearchRequest.SerializeToString,
+            service__pb2.SearchResponseStream.FromString,
             options, channel_credentials,
             insecure, call_credentials, compression, wait_for_ready, timeout, metadata)

@@ -10,7 +10,7 @@ data = {
     }
 print(data)
 sesssion = requests.Session()
-r = sesssion.post('http://127.0.0.1:5000/aliexpress-find', json = data,
+r = sesssion.post('http://194.67.116.168:5000/aliexpress-find', json = data,
                   headers={"content-type": "application/json"}
     )
 
